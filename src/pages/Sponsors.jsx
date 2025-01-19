@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from '../styles/Sponsors.module.css'
 import Pages from '../components/Sponsors/Pages'
+import SmallBox from '../components/Sponsors/polaroid'
 
 const Sponsors = () => {
   return (
     <>
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <h1 className={styles.sponsors}>Sponsor Page</h1>
-        <img className={styles.logo} src="/public/mlsclogo.png" alt="MLSC Logo" />
-        {/* <Pages /> */}
+        <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
+        <img className={styles.menu} src="/Sponsors/menu.png" alt="MLSC Logo" />
+        <Pages />       
       </div>
     </div>
     </>
