@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from '../styles/Sponsors.module.css'
 import Pages from '../components/Sponsors/Pages'
+import PagesT from '../components/SponsorsPageInside/Title/Pages'
+import PagesA from '../components/SponsorsPageInside/Associate/Pages'
+import PagesP from '../components/SponsorsPageInside/Power/Pages'
+
 
 const Sponsors = () => {
   return (
@@ -9,7 +13,10 @@ const Sponsors = () => {
       <div className={styles.container}>
         <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
         <img className={styles.menu} src="/Sponsors/menu.png" alt="MLSC Logo" />
-        <Pages />       
+        {/* <Pages />  */}
+        <PagesT />
+        <PagesP />      
+        <PagesA />
       </div>
     </div>
     </>

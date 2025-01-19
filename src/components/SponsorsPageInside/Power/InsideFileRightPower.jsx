@@ -13,11 +13,10 @@ const FilesLeftTitle = () => {
                 <h1 classname={styles.invi}>&nbsp;</h1>
                 <h1 align="center">TITLE</h1>
 
-                <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>
-                <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>
+                <div className={styles.center}><SmallBox/><SmallBox/></div>
+                <div className={styles.center}><SmallBox/></div>
                 <div className={styles.center}><SmallBox/><SmallBox/></div>
 
-                <h1 align="center">COMPANY NAME</h1>
                 </div>
 
             </div>

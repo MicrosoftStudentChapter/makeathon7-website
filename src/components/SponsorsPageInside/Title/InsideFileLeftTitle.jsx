@@ -15,7 +15,6 @@ const FilesLeftTitle = () => {
 
                 <div className={styles.center}><SmallBox/></div>
 
-                <h1 align="center">COMPANY NAME</h1>
                 </div>
 
             </div>
