@@ -4,7 +4,6 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    /* background-color: antiquewhite; */
     background-position: center;
     position: relative;
 }
@@ -13,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: .3vw;
+    margin: .25vw;
     height: 92.5vh;
     width: 35vw;
     background-color: rgb(224, 200, 169);
@@ -22,22 +21,8 @@
     border-radius: 1.5vh;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 60%;
-    position: relative;
-}
-
-.column {
-    display: flex;
-    justify-content: bottom;
-    align-items: bottom;
-    width: 40%;
-    height: 40%;
-    position: relative;
+.invi {
+    color: transparent; 
 }
 
 .filespagebgleft {
@@ -89,6 +74,51 @@
     width: 26vw;
     position: relative;
 }
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.6vw;
+    height: 30vh;
+    width: 4vw;
+    background-color: rgb(224, 200, 169);
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+    margin-top: 50vh;
+}
+
+.whitebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 1.2vw;
+    background-color: #9E9683;
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+.turn90{
+    rotate: 90deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 .Polaroid{
     display: flex;
@@ -153,10 +183,6 @@
     position: relative;
 }
 
-.invi {
-    color: transparent; 
-}
-
 .sideright1{
     background-color: rgb(224, 200, 169);
     display: flex;
@@ -184,7 +210,6 @@
 .slit {
     background-color: #000000;
     margin: 1vw;
-    /* rotate: 6deg; */
     height: 92.5vh;
     width: 50vw;
     position: relative;
@@ -194,9 +219,27 @@
 .sliti {
     background-color: transparent;
     margin: 1vw;
-    /* rotate: 6deg; */
     height: 92.5vh;
     width: 50vw;
     position: relative;
     border-radius: 1vh;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    position: relative;
+}
+
+.column {
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+    width: 40%;
+    height: 40%;
+    position: relative;
+}
+    */

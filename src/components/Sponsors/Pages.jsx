@@ -7,6 +7,8 @@ const Pages = () => {
     <>
       <div className={styles.main}>
 
+        <div className={styles.sidebar}><div className={styles.whitebar}></div></div>
+
         <div className={styles.container}>
 
           <div className={styles.filespagebgleft}>
@@ -16,14 +18,6 @@ const Pages = () => {
               <div className={styles.filespageleft2}>
                 <h1 classname={styles.invi}>&nbsp;</h1>
                 <h1 align="center">TITLE</h1>
-
-                <div classname={styles.Polaroid}>
-
-                  <div classname={styles.Inside}>
-                    <div classname={styles.InsidePolaroid}></div>
-                  </div>
-
-                </div>
 
                 <h1 align="center">COMPANY NAME</h1>
               </div>
@@ -44,13 +38,7 @@ const Pages = () => {
                 <h1 classname={styles.invi}>&nbsp;</h1>
                 <h1 align="center">TITLE</h1>
 
-                <div classname={styles.Polaroid}>
 
-                  <div classname={styles.Inside}>
-                    <div classname={styles.InsidePolaroid}></div>
-                  </div>
-
-                </div>
 
                 <h1 align="center">COMPANY NAME</h1>
               </div>
@@ -60,45 +48,9 @@ const Pages = () => {
           </div>
         </div>
 
+        <div className={styles.sidebar}><div className={styles.whitebar}><div className={styles.turn90}>172.36F.GH99</div></div></div>
+
       </div>
-
-      {/* //         <div className={styles.sliti}><h1 class={styles.invi}>.</h1></div>
-    //         <div className={styles.sliti}><h1 class={styles.invi}>.</h1></div>
-            
-    //         <div className={styles.slit}><h1 class={styles.invi}>.</h1></div>
-
-    //         <div className={styles.filespagebgright}>
-    //           <div className={styles.filespageright1}>
-    //             <div className={styles.filespageright2}>
-    //               <h1 classname={styles.invi}>&nbsp;</h1>
-    //               <h1 align="center">SPONSORS</h1>
-    //               <div classname={styles.Polaroid}> 
-    //                 <div classname={styles.Inside}>
-    //                   <div classname={styles.InsidePolaroid}></div>
-    //                 </div>  
-    //               </div>
-    //               <h1 align="center">COMPANY NAME</h1>
-    //             </div>
-    //           </div>
-    //         </div>
-
-    //         <div classname={styles.column}>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sideright}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //         </div>
-
-    //         <div classname={styles.column}>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sides1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //           <div className={styles.sideright1}><h1 class={styles.invi}>&nbsp;</h1></div>
-    //         </div> 
-
-    //       </div>
-    //   </div>
-    // </div> */}
     </>
         )
 }

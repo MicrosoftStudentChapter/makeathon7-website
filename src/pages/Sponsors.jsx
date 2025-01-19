@@ -8,9 +8,10 @@ const Sponsors = () => {
     <>
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <img className={styles.logo} src="/public/mlsclogo.png" alt="MLSC Logo" />
+        <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
+        <img className={styles.menu} src="/Sponsors/menu.png" alt="MLSC Logo" />
         <Pages />
-        <SmallBox />
+        <SmallBox className={styles.pageClass}/>
       </div>
     </div>
     </>
