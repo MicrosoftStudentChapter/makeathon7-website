@@ -9,7 +9,7 @@ const Sponsors = () => {
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <img className={styles.logo} src="/public/mlsclogo.png" alt="MLSC Logo" />
-        {/*<Pages />*/}
+        <Pages />
         <SmallBox />
       </div>
     </div>
