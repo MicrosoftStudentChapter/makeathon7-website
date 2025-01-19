@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/Sponsors.module.css'
 import Pages from '../components/Sponsors/Pages'
-import SmallBox from '../components/Sponsors/polaroid'
 
 const Sponsors = () => {
   return (
