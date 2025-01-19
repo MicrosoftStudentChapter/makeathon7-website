@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Pages.module.css'
-// import SmallBox from '../components/Sponsors/polaroid'
+import SmallBox from './polaroid.jsx' 
 
 const Pages = () => {
   return (
@@ -19,6 +19,8 @@ const Pages = () => {
                 <h1 classname={styles.invi}>&nbsp;</h1>
                 <h1 align="center">TITLE</h1>
 
+                <div className={styles.center}><SmallBox/></div>
+
                 <h1 align="center">COMPANY NAME</h1>
               </div>
 
@@ -36,9 +38,9 @@ const Pages = () => {
 
               <div className={styles.filespageright2}>
                 <h1 classname={styles.invi}>&nbsp;</h1>
-                <h1 align="center">TITLE</h1>
+                <h1 align="center">SPONSORS</h1>
 
-
+                <div className={styles.center}><SmallBox/></div>
 
                 <h1 align="center">COMPANY NAME</h1>
               </div>
