@@ -13,10 +13,14 @@ const PagesP = () => {
 
         <div className={styles.container}>
           <FilesLeftTitle />
+          <img className={styles.target}      src="public\Sponsors\ClosedFile\Crosshair.png"  alt="Crosshair"/>
         </div>
 
         <div className={styles.container}>
           <FilesRightTitle />
+          <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
+          <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
+        
         </div>
 
         <div className={styles.sidebar}>
@@ -25,23 +29,6 @@ const PagesP = () => {
           </div>
         </div>
 
-        <img
-          className={styles.handprint}
-          src="public\Sponsors\ClosedFile\handprint.png" // Use the relative path from the public directory
-          alt="Handprint"
-        />
-
-        <img
-          className={styles.target}
-          src="public\Sponsors\ClosedFile\Crosshair.png" // Use the relative path from the public directory
-          alt="Target Logo"
-        />
-
-        <img
-          className={styles.handcuffs}
-          src="public\Sponsors\ClosedFile\Hatkadi.png"
-          alt="Handcuffs"
-        />
       </div>
     </>
   )

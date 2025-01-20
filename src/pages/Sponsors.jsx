@@ -16,8 +16,8 @@ const Sponsors = () => {
         <img className={styles.menu} src="/Sponsors/menu.png" alt="MLSC Logo" />
         {/* <Pages />  */}
         {/*<PagesT />  */}  
-         {/*<PagesP /> */}     
-        <PagesA />
+         <PagesP />     
+        {/* <PagesA /> */}
         {/*<ClosedFile/>*/}
       </div>
     </div>

@@ -52,27 +52,33 @@
 }
 
 .handprint {
+    overflow: hidden;
+    display: flex;
     position: absolute;
-    top: -80px;
-    right: 130px;
-    width: 350px;
-    height: 350px; 
+    top: -3vw;
+    right: -3vw;
+    width: 20vw;
+    height: auto; 
     opacity: 0.3; 
-  }
+}
 
-  .target {
+.target {
+    overflow: 0;
+    display: flex;
     position: absolute;
-    top: 60px; 
-    right: 900px; 
-    width: 100px;
+    top: 0;
+    width: 7.5vw;
+    right: 1.5vw;
     height: auto; 
     opacity: 0.4; 
 }
 
 .handcuffs {
+    overflow: 0;
+    display: flex;
     position: absolute;
-    bottom: -10px;
-    right: 200px;
-    width: 250px; 
+    bottom: -5vw;
+    right: -5vw;
+    width: 20vw; 
     height: auto;
 }
