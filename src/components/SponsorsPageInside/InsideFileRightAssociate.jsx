@@ -11,7 +11,7 @@ const FilesLeftTitle = () => {
 
                 <div className={styles.filespageright2}>
                 <h1 classname={styles.invi}>&nbsp;</h1>
-                <h1 align="center">TITLE</h1>
+                <h1 align="center">ASSOCIATE</h1>
 
                 <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>
                 <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>

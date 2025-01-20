@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-start; 
   align-items: center;
-  width: 100px;
-  height: 120px;
+  width: 25%;
+  height: 30%;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
