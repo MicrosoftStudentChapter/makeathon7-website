@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InsideFileLeftAssociate.module.css'
+import styles from './InsideFileLeft.module.css'
 import SmallBox from './polaroid.jsx' 
 
 const FilesLeftTitle = () => {
