@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .25vw;
+    height: 92.5vh;
+    width: 35vw;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.6vw;
+    height: 30vh;
+    width: 4vw;
+    background-color: rgb(224, 200, 169);
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+    margin-top: 50vh;
+}
+
+.whitebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 1.2vw;
+    background-color: #9E9683;
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+.turn90{
+    rotate: 90deg;
+}

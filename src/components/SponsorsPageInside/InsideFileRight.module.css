@@ -22,3 +22,12 @@
     width: 26vw;
     position: relative;
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invi {
+    color: transparent; 
+}
