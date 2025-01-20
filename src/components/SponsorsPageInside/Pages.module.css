@@ -63,7 +63,7 @@
 }
 
 .target {
-    overflow: 0;
+    overflow: hidden;
     display: flex;
     position: absolute;
     top: 0;
@@ -74,7 +74,7 @@
 }
 
 .handcuffs {
-    overflow: 0;
+    overflow: hidden;
     display: flex;
     position: absolute;
     bottom: -5vw;

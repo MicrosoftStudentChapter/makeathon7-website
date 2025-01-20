@@ -17,8 +17,8 @@ const PagesP = () => {
         </div>
 
         <div className={styles.container}>
-          <FilesRightTitle />
           <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
+          <FilesRightTitle />
           <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
         
         </div>
