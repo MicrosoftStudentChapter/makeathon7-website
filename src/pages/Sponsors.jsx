@@ -15,10 +15,10 @@ const Sponsors = () => {
         <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
         <img className={styles.menu} src="/Sponsors/menu.png" alt="MLSC Logo" />
         {/* <Pages />  */}
-        {/*<PagesT />  */}  
-         <PagesP />     
-        {/* <PagesA /> */}
-        {/*<ClosedFile/>*/}
+        <PagesT />   
+        <PagesP />     
+        <PagesA />
+        <ClosedFile/>
       </div>
     </div>
     </>
