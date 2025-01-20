@@ -31,3 +31,14 @@
 .invi {
     color: transparent; 
 }
+
+.target {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 7.5vw;
+    right: 1.5vw;
+    height: auto; 
+    opacity: 0.4; 
+}

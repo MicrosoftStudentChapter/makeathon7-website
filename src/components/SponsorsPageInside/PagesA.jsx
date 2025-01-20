@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesLeftTitle from './InsideFileRightPower.jsx' 
-import FilesRightTitle from './InsideFileLeftPower.jsx' 
+import FilesLeftTitle from './InsideFileRightAssociate.jsx' 
+import FilesRightTitle from './InsideFileLeftAssociate.jsx' 
 
-const PagesA = () => {
+const PagesT = () => {
   return (
     <>
       <div className={styles.main}>
@@ -13,14 +13,10 @@ const PagesA = () => {
 
         <div className={styles.container}>
           <FilesLeftTitle />
-          <img className={styles.target}      src="public\Sponsors\ClosedFile\Crosshair.png"  alt="Crosshair"/>
         </div>
 
         <div className={styles.container}>
-          <FilesRightTitle />
-          <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
-          <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
-        
+          <FilesRightTitle />       
         </div>
 
         <div className={styles.sidebar}>
@@ -34,4 +30,4 @@ const PagesA = () => {
   )
 }
 
-export default PagesA
+export default PagesT

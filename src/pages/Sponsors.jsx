@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../styles/Sponsors.module.css'
 
-import PagesP from '../components/SponsorsPageInside/PagesP.jsx'
 import PagesT from '../components/SponsorsPageInside/PagesT.jsx'
+import PagesP from '../components/SponsorsPageInside/PagesP.jsx'
 import PagesA from '../components/SponsorsPageInside/PagesA.jsx'
 
 import ClosedFile from "../components/Sponsors/ClosedFile";
