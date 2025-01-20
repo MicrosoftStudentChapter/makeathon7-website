@@ -1,15 +1,11 @@
 import React from 'react'
 import styles from '../styles/Sponsors.module.css'
-import Pages from '../components/Sponsors/Pages'
-// import PagesT from '../components/SponsorsPageInside/Title/Pages'
-// import PagesA from '../components/SponsorsPageInside/Associate/Pages'
-// import PagesP from '../components/SponsorsPageInside/Power/Pages'
 
-import PagesP from '../components/SponsorsPageInside/Final/PagesP.jsx'
-import PagesT from '../components/SponsorsPageInside/Final/PagesT.jsx'
-import PagesA from '../components/SponsorsPageInside/Final/PagesA.jsx'
+import PagesP from '../components/SponsorsPageInside/PagesP.jsx'
+import PagesT from '../components/SponsorsPageInside/PagesT.jsx'
+import PagesA from '../components/SponsorsPageInside/PagesA.jsx'
 
-import ClosedFile from "../components/Sponsors/closedfile/ClosedFile";
+import ClosedFile from "../components/Sponsors/ClosedFile";
 
 const Sponsors = () => {
   return (
