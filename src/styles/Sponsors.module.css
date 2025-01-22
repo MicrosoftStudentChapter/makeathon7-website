@@ -1,36 +1,51 @@
-html, body {
-    height: 100%;   
-    margin: 0;
-}
-
 .wrapper {
-    background: url("/Sponsors/background.png");
-    background-size: cover;
-    min-height: 100vh;
-    width: 100vw;
-    position: relative;
-}
-
-.container {
-    padding: 1.5vw; /* Adjust as needed */
-}
-
-.sponsors {
+    transition: background 0.5s ease; /* Smooth transition for background change */
+    min-height: 100vh; /* Ensure the wrapper takes full viewport height */
+    width: 100vw; /* Ensure the wrapper takes full viewport width */
+    background: url('Sponsors/background.png') no-repeat center center; /* Initial background image */
+    background-size: cover; /* Ensure the background image covers the entire wrapper */
+    background-attachment: fixed; /* Fix the background image to prevent it from moving */
+  }
+  
+  .scrolled {
+    background: linear-gradient(#571112, #160B08); /* Background change on scroll */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;
+    min-height: 200vh; /* Ensure the container is tall enough to allow scrolling */
+    width: 100%; /* Ensure the container takes full width */
+    padding-top: 75px; /* Add top padding to move content down */
+  }
+  
+  .sponsors {
     padding: 1.5vw; /* Adjust as needed */
     /* Add other styles as needed */
-}
-
-.logo {
-    position: sticky;
-    top: 5%;
-    left: 2%; 
-    width: 7vw;
-}
-
-.menu {
-    position: sticky;
-    top: 6%;
-    left: 98%; 
-    width: 5vw;
-    height: 5vw;
-}
+  }
+  
+  .logo {
+    position: fixed; /* Use fixed positioning to keep it at the top left */
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 7vw; /* Adjust as needed */
+  }
+  
+  .menu {
+    position: fixed; /* Use fixed positioning to keep it at the top right */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 5vw; /* Adjust as needed */
+    height: 5vw; /* Adjust as needed */
+  }
+  
+  .fade {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .fade-exit {
+    opacity: 0;
+  }
