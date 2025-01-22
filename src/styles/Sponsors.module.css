@@ -49,3 +49,9 @@
   .fade-exit {
     opacity: 0;
   }
+
+  .AbsoluteFixed{
+    position:Fixed;
+    position: top;
+    position: center;
+  }
