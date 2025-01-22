@@ -32,3 +32,23 @@
 .invi {
     color: transparent; 
 }
+
+.handprint {
+    overflow: hidden;
+    position: absolute;
+    top: -5vw;
+    right: -5vw;
+    width: auto;
+    height: 15vw; 
+    opacity: 0.5; 
+}
+
+.handcuffs {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    bottom: -5vw;
+    right: -5vw;
+    width: 20vw; 
+    height: auto;
+}
