@@ -40,7 +40,7 @@
     right: -5vw;
     width: auto;
     height: 15vw; 
-    opacity: 0.5; 
+    opacity: 0.25; 
 }
 
 .handcuffs {
@@ -49,6 +49,6 @@
     position: absolute;
     bottom: -5vw;
     right: -5vw;
-    width: 20vw; 
+    width: 15vw; 
     height: auto;
 }

@@ -32,7 +32,7 @@ const Sponsors = () => {
 
   return (
     <>
-      <div className={`${styles.wrapper} ${scrollPosition > 100 ? styles.scrolled : ''}`}>
+      <div className={`${styles.wrapper} ${scrollPosition > 200 ? styles.scrolled : ''}`}>
         <div className={styles.container}>  
 
           <div className={styles.AbsoluteFixed}>
