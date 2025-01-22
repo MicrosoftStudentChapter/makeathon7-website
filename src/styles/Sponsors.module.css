@@ -4,6 +4,7 @@
     width: 100vw; 
     background: url('Sponsors/background.png') no-repeat center center;
     background-size: cover; 
+    background-position: fixed;
     background-attachment: fixed;
   }
   

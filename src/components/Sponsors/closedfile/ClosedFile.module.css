@@ -1,0 +1,59 @@
+.basefile {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3vw;
+    height: 92.5vh;
+    width: 35vw;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+    left: 240px;
+    top: -65px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.special{
+    position: absolute;
+    top: 350px;
+}
+.spy{
+    position: absolute;
+    left: 30px;
+    top: 450px;
+}
+.secret{
+    position: absolute;
+    top: -50px;
+    left: 280px;
+}
+.sp{
+    position: absolute;
+    top: 280px;
+}
+.txt{
+    position: absolute;
+    top: 490px;
+    left: 180px;
+}
+.codebox{
+    position: absolute;
+    /* border: 2px solid red; */
+    background-color: rgb(224, 200, 169);
+    padding: 10px;
+    height: 180px;
+    left: 536px;
+    top: 450px;
+    border-radius: 2px;
+
+}
+.code{
+    position: relative;
+    top: 10px;
+}

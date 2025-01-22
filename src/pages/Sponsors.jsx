@@ -3,7 +3,8 @@ import styles from '../styles/Sponsors.module.css';
 import PagesT from '../components/SponsorsPageInside/PagesT.jsx';
 import PagesP from '../components/SponsorsPageInside/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/PagesA.jsx';
-import ClosedFile from '../components/Sponsors/ClosedFile';
+import ClosedFile from '../components/Sponsors/closedfile/ClosedFile.jsx';
+import MobileView from '../components/Sponsors/MobileView/MobileView.jsx';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -20,8 +21,10 @@ const Sponsors = () => {
   }, []);
 
   let content;
-  if (scrollPosition > 600) {
+  if (scrollPosition > 800) {
     content = <PagesA />;
+  } else if (scrollPosition > 600) {
+    content = <MobileView />;
   } else if (scrollPosition > 400) {
     content = <PagesP />;
   } else if (scrollPosition > 200) {
