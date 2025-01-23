@@ -1,0 +1,55 @@
+.filespagebgright{
+    background-color: #9E9683;
+    margin: -6.5vw;
+    rotate: 6deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+}
+
+.filespageright1{
+    background-color: #B4AA96;
+    rotate: -3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+}
+
+.filespageright2{
+    background-color: #CBC0A9;
+    rotate: -3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invi {
+    color: transparent; 
+}
+
+.target {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 7.5vw;
+    right: 1.5vw;
+    height: auto; 
+    opacity: 0.4; 
+}
+
+.SpyGunLogo{
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 7.5vw;
+    left: 1.5vw;
+    height: auto; 
+    opacity: 2; 
+}
