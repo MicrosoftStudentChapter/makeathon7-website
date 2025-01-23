@@ -3,8 +3,9 @@ import styles from '../styles/Sponsors.module.css';
 import PagesT from '../components/SponsorsPageInside/PagesT.jsx';
 import PagesP from '../components/SponsorsPageInside/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/PagesA.jsx';
-import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
-// import MobileView from '../components/MobileView/MobileView.jsx';
+import PagesTM from '../components/MobileView/PagesT.jsx';
+import PagesPM from '../components/MobileView/PagesP.jsx';
+import PagesAM from '../components/MobileView/PagesA.jsx';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,11 +23,11 @@ const Sponsors = () => {
 
   let content;
   if (scrollPosition > 600) {
-    content = <PagesA />;
+    content = <PagesAM />;
   } else if (scrollPosition > 400) {
-    content = <PagesP />;
+    content = <PagesPM />;
   } else if (scrollPosition > 200) {
-    content = <PagesT />;
+    content = <PagesTM />;
   } else {
     content = <ClosedFile />;
   }
