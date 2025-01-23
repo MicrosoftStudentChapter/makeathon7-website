@@ -7,6 +7,7 @@ import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
 import PagesTM from '../components/MobileView/PagesT.jsx';
 import PagesPM from '../components/MobileView/PagesP.jsx';
 import PagesAM from '../components/MobileView/PagesA.jsx';
+import Whysus from '../components/SponsorsPageInside/WhySus.jsx';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,11 +25,11 @@ const Sponsors = () => {
 
   let content;
   if (scrollPosition > 600) {
-    content = <PagesA />;
+    content = <PagesAM />;
   } else if (scrollPosition > 400) {
-    content = <PagesP />;
+    content = <PagesPM />;
   } else if (scrollPosition > 200) {
-    content = <PagesT />;
+    content = <PagesTM />;
   } else {
     content = <ClosedFile />;
   }
@@ -43,6 +44,8 @@ const Sponsors = () => {
             <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" />
             <div className={styles.fade}>{content}</div>
           </div>
+
+          <Whysus />
 
         </div>
       </div>
