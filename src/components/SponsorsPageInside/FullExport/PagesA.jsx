@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesLeftTitle from '../Left/InsideLA.jsx' 
-import FilesRightTitle from '../Right/InsideRA.jsx' 
+import LA from '../Left/InsideLA.jsx' 
+import RA from '../Right/InsideRA.jsx' 
 
-const PagesT = () => {
+const PagesA = () => {
   return (
     <>
       <div className={styles.main}>
@@ -12,11 +12,11 @@ const PagesT = () => {
         </div>
 
         <div className={styles.container}>
-          <FilesLeftTitle />
+          <LA />
         </div>
 
         <div className={styles.container}>
-          <FilesRightTitle />       
+          <RA />       
         </div>
 
         <div className={styles.sidebar}>
@@ -30,4 +30,4 @@ const PagesT = () => {
   )
 }
 
-export default PagesT
+export default PagesA

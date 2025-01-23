@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../FullExport/Inside.module.css'
 import Power from '../PolaroidsSettings/Power.jsx'
 
-const FileTitle = () => {
+const RP = () => {
   return (
     <>
         <div className={styles.filespagebgR}>
@@ -18,4 +18,4 @@ const FileTitle = () => {
 )
 }
 
-export default FileTitle
+export default RP

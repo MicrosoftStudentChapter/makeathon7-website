@@ -1,8 +1,22 @@
 import React from 'react'
 import styles from '../FullExport/Inside.module.css'
-import SmallBox from '../Polaroid/Polaroid.jsx' 
+import Associate from '../PolaroidsSettings/Associate.jsx'
+import Power from '../PolaroidsSettings/Power.jsx'
+import Title from '../PolaroidsSettings/Title.jsx'
 
-const FilesLeftTitle = () => {
+const LA = () => {
+
+let contentL;
+// if (scrollPosition > 600) {
+    contentL = <Associate />;
+// } else if (scrollPosition > 400) {
+//     contentL = <Power />;
+// } else if (scrollPosition > 200) {
+//     contentL = <Title />;
+// } else {
+//     content = <ClosedFile />;
+//}
+
   return (
     <>
         <div className={styles.filespagebgL}>
@@ -10,14 +24,9 @@ const FilesLeftTitle = () => {
             <div className={styles.filespageL1}>
 
                 <div className={styles.filespageL2}>
-                <h1 classname={styles.invi}>&nbsp;</h1>
-                <h1 align="center">ASSOCIATE</h1>
                 <img className={styles.SpyGunLogo}  src="public\Sponsors\ClosedFile\007-Logo.png"  alt="007Logo"/>
                 <img className={styles.target}      src="public\Sponsors\ClosedFile\Crosshair.png"  alt="Crosshair"/>
-                <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>
-                <div className={styles.center}><SmallBox/><SmallBox/><SmallBox/></div>
-                <div className={styles.center}><SmallBox/><SmallBox/></div>
-
+                {contentL}
                 </div>
 
             </div>
@@ -27,4 +36,4 @@ const FilesLeftTitle = () => {
 )
 }
 
-export default FilesLeftTitle
+export default LA

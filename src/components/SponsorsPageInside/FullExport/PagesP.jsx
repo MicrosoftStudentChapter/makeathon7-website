@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesLeftTitle from '../Left/InsideLP.jsx'
-import FilesRightTitle from '../Right/InsideRP.jsx'
+import LP from '../Left/InsideLP.jsx'
+import RP from '../Right/InsideRP.jsx'
 
 const PagesP = () => {
   return (
@@ -12,11 +12,11 @@ const PagesP = () => {
         </div>
 
         <div className={styles.container}>
-          <FilesLeftTitle />
+          <LP />
         </div>
 
         <div className={styles.container}>
-          <FilesRightTitle />
+          <RP />
         </div>
 
         <div className={styles.sidebar}>

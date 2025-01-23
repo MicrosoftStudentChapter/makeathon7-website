@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../FullExport/Inside.module.css'
 import Associate from '../PolaroidsSettings/Associate.jsx'
 
-const FileAssociate = () => {
+const RA = () => {
   return (
     <>
         <div className={styles.filespagebgR}>
@@ -18,4 +18,4 @@ const FileAssociate = () => {
 )
 }
     
-export default FileAssociate
+export default RA
