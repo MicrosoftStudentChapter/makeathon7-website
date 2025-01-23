@@ -1,0 +1,100 @@
+.wrapper {
+    transition: background 5s ease; 
+    min-height: 100vh;
+    width: 100vw; 
+    background: url('Sponsors/background.png') no-repeat center center;
+    background-size: cover; 
+    background-position: fixed;
+    background-attachment: fixed;
+  }
+  
+  .scrolled {
+    background: linear-gradient(#571112, #160B08);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 200vh; 
+    width: 100%; 
+    padding-top: 75px;
+  }
+  
+  .sponsors {
+    padding: 1.5vw; 
+  
+  }
+  
+  .logo {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    width: 7vw; 
+  }
+  
+  .menu {
+    position: fixed;
+    top: 10px; 
+    right: 10px;
+    width: 5vw; 
+    height: 5vw;
+  }
+  
+  .fade {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  .fade-exit {
+    opacity: 0;
+  }
+
+  .AbsoluteFixed{
+    position:Fixed;
+    position: top;
+    position: center;
+  }
+
+.Sponsors {
+  background: url("/Sponsors/FingerTrail.png");
+  background-size: cover; /* Stretches the image to cover the element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+.SponsorTitle {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-family: "Poppins";
+}
+
+.SponsorHeadings {
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  color: rgb(218, 65, 65);
+}
+
+ul {
+  padding: 2% 20%;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+}
+
+li p {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}

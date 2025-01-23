@@ -7,7 +7,7 @@ import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
 import PagesTM from '../components/MobileView/PagesT.jsx';
 import PagesPM from '../components/MobileView/PagesP.jsx';
 import PagesAM from '../components/MobileView/PagesA.jsx';
-import Whysus from '../components/SponsorsPageInside/WhySus.jsx';
+import Whysus from '../components/SponsorsPageInside/Sus/WhySus.jsx';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
