@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesRightTitle from './InsideFileLeftTitle.jsx' 
+import FilesRightTitle from './InsideFileRightTitle.jsx' 
 
 const PagesA = () => {
   return (
