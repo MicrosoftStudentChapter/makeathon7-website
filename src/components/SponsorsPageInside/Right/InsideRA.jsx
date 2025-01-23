@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './InsideR.module.css'
+import styles from '../FullExport/Inside.module.css'
 import Associate from '../PolaroidsSettings/Associate.jsx'
 
 const FileAssociate = () => {

@@ -28,43 +28,60 @@
     left: 1vw;
 }
 
-.filespagebgR {
+.filespagebgR{
     background-color: #9E9683;
-    margin: 6vw;
-    rotate: -6deg;
+    margin: -6.5vw;
+    rotate: 6deg;
     height: 80vh;
-    width: 26vw; 
+    width: 26vw;
     position: relative;
+    top: 1vw;
 }
 
 .filespageR1{
     background-color: #B4AA96;
-    rotate: 3deg;
+    rotate: -3deg;
     height: 80vh;
     width: 26vw;
     position: relative;
-    top: -0.75vw;
-    right: -1vw;
+    top: -0.7vw;
+    left: -1vw;
 }
 
 .filespageR2{
     background-color: #CBC0A9;
-    rotate: 3deg;
+    rotate: -3deg;
     height: 80vh;
     width: 26vw;
     position: relative;
-    top: -0.75vw;
-    right: -1vw;
+    top: -0.7vw;
+    left: -1vw;
+}
+
+.handprint {
+    overflow: hidden;
+    position: absolute;
+    top: -5vw;
+    right: -5vw;
+    width: auto;
+    height: 15vw; 
+    opacity: 0.25; 
+}
+
+.handcuffs {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    bottom: -5vw;
+    right: -5vw;
+    width: 15vw; 
+    height: auto;
 }
 
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.invi {
-    color: transparent; 
 }
 
 .target {
@@ -88,3 +105,7 @@
     height: auto; 
     opacity: 2; 
 }
+
+.invi {
+    color: transparent; 
+}   
