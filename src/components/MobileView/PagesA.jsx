@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './Pages.module.css'
-import FilesRightTitle from './InsideAssociate.jsx' 
+import styles from '../SponsorsPageInside/FullExport/Pages.module.css'
+import FilesRightTitle from '../SponsorsPageInside/Right/InsideRA.jsx' 
 
 const PagesT = () => {
   return (

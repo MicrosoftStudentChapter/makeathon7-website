@@ -24,11 +24,11 @@ const Sponsors = () => {
 
   let content;
   if (scrollPosition > 600) {
-    content = <PagesA />;
+    content = <PagesAM />;
   } else if (scrollPosition > 400) {
-    content = <PagesP />;
+    content = <PagesPM />;
   } else if (scrollPosition > 200) {
-    content = <PagesT />;
+    content = <PagesTM />;
   } else {
     content = <ClosedFile />;
   }

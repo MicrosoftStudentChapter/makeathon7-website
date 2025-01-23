@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './Pages.module.css'
-import FilesRightTitle from './InsidePower.jsx'
+import styles from '../SponsorsPageInside/FullExport/Pages.module.css'
+import FilesRightTitle from '../SponsorsPageInside/Right/InsideRP.jsx' 
 
 const PagesP = () => {
   return (
