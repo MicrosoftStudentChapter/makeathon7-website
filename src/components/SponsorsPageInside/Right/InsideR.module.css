@@ -1,26 +1,30 @@
-.filespagebgR {
+.filespagebgR{
     background-color: #9E9683;
-    margin: 6vw;
-    rotate: -6deg;
+    margin: -6.5vw;
+    rotate: 6deg;
     height: 80vh;
-    width: 26vw; 
+    width: 26vw;
     position: relative;
 }
 
 .filespageR1{
     background-color: #B4AA96;
-    rotate: 3deg;
+    rotate: -3deg;
     height: 80vh;
     width: 26vw;
     position: relative;
+    top: -0.75vw;
+    left: -1vw;
 }
 
 .filespageR2{
     background-color: #CBC0A9;
-    rotate: 3deg;
+    rotate: -3deg;
     height: 80vh;
     width: 26vw;
     position: relative;
+    top: -0.75vw;
+    left: -1vw;
 }
 
 .center{

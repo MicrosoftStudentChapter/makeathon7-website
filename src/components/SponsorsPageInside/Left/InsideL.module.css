@@ -13,6 +13,8 @@
     height: 80vh;
     width: 26vw;
     position: relative;
+    bottom: 0.75vw;
+    right: -1vw;
 }
 
 .filespageL2{
@@ -21,7 +23,39 @@
     height: 80vh;
     width: 26vw;
     position: relative;
+    bottom: 0.75vw;
+    right: -1vw;
 }
+
+.filespagebgR {
+    background-color: #9E9683;
+    margin: 6vw;
+    rotate: -6deg;
+    height: 80vh;
+    width: 26vw; 
+    position: relative;
+}
+
+.filespageR1{
+    background-color: #B4AA96;
+    rotate: 3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+    top: -0.75vw;
+    right: -1vw;
+}
+
+.filespageR2{
+    background-color: #CBC0A9;
+    rotate: 3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+    top: -0.75vw;
+    right: -1vw;
+}
+
 .center{
     display: flex;
     justify-content: center;
