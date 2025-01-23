@@ -5,6 +5,7 @@
     height: 80vh;
     width: 26vw;
     position: relative;
+    top: 1vw;
 }
 
 .filespageR1{
@@ -13,7 +14,7 @@
     height: 80vh;
     width: 26vw;
     position: relative;
-    top: -0.75vw;
+    top: -0.7vw;
     left: -1vw;
 }
 
@@ -23,7 +24,7 @@
     height: 80vh;
     width: 26vw;
     position: relative;
-    top: -0.75vw;
+    top: -0.7vw;
     left: -1vw;
 }
 
