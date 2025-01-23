@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './InsideR.module.css'
-import SmallBox from './Polaroid.jsx'
+import styles from '../Right/InsideR.module.css'
+import SmallBox from '../Polaroid/Polaroid.jsx'
 
-const FilesPower = () => {
+const Associate = () => {
   return (
     <>
       <h1 classname={styles.invi}>&nbsp;</h1>
@@ -16,4 +16,4 @@ const FilesPower = () => {
   )
 }
 
-export default FilesPower
+export default Associate

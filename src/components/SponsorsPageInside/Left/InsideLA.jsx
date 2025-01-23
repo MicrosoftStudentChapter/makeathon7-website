@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './InsideL.module.css'
-import SmallBox from './Polaroid.jsx' 
+import SmallBox from '../Polaroid/Polaroid.jsx' 
 
 const FilesLeftTitle = () => {
   return (

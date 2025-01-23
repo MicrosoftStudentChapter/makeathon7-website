@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Sponsors.module.css';
-import PagesT from '../components/SponsorsPageInside/PagesT.jsx';
-import PagesP from '../components/SponsorsPageInside/PagesP.jsx';
-import PagesA from '../components/SponsorsPageInside/PagesA.jsx';
+import PagesT from '../components/SponsorsPageInside/FullExport/PagesT.jsx';
+import PagesP from '../components/SponsorsPageInside/FullExport/PagesP.jsx';
+import PagesA from '../components/SponsorsPageInside/FullExport/PagesA.jsx';
 import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
 import PagesTM from '../components/MobileView/PagesT.jsx';
 import PagesPM from '../components/MobileView/PagesP.jsx';

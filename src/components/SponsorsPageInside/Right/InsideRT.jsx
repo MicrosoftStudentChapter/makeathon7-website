@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './InsideR.module.css'
-import Power from './Power.jsx'
+import Title from '../PolaroidsSettings/Title.jsx'
 
 const FileTitle = () => {
   return (
@@ -9,7 +9,7 @@ const FileTitle = () => {
             <div className={styles.filespageR1}>
                 <div className={styles.filespageR2}>
                     <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
-                    <Power />
+                    <Title />
                     <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
                 </div>
             </div>

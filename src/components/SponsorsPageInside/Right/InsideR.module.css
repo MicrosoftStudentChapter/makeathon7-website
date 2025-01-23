@@ -29,10 +29,6 @@
     align-items: center;
 }
 
-.invi {
-    color: transparent; 
-}
-
 .handprint {
     overflow: hidden;
     position: absolute;
@@ -51,4 +47,8 @@
     right: -5vw;
     width: 15vw; 
     height: auto;
+}
+
+.invi {
+    color: transparent; 
 }

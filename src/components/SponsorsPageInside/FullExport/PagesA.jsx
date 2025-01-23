@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesLeftTitle from './InsideLP.jsx'
-import FilesRightTitle from './InsideRP.jsx'
+import FilesLeftTitle from '../Left/InsideLA.jsx' 
+import FilesRightTitle from '../Right/InsideRA.jsx' 
 
-const PagesP = () => {
+const PagesT = () => {
   return (
     <>
       <div className={styles.main}>
@@ -16,7 +16,7 @@ const PagesP = () => {
         </div>
 
         <div className={styles.container}>
-          <FilesRightTitle />
+          <FilesRightTitle />       
         </div>
 
         <div className={styles.sidebar}>
@@ -30,4 +30,4 @@ const PagesP = () => {
   )
 }
 
-export default PagesP
+export default PagesT
