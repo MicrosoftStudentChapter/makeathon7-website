@@ -1,15 +1,15 @@
 import React from 'react'
-import styles from './InsideFileLeft.module.css'
-import Associate from './Associate.jsx'
+import styles from './InsideR.module.css'
+import Title from './Title.jsx'
 
-const FileAssociate = () => {
+const FileTitle = () => {
   return (
     <>
-        <div className={styles.filespagebgleft}>
-            <div className={styles.filespageleft1}>
-                <div className={styles.filespageleft2}>
+        <div className={styles.filespagebgR}>
+            <div className={styles.filespageR1}>
+                <div className={styles.filespageR2}>
                     <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
-                    <Associate />
+                    <Title />
                     <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
                 </div>
             </div>
@@ -17,5 +17,5 @@ const FileAssociate = () => {
     </>
 )
 }
-    
-export default FileAssociate
+
+export default FileTitle

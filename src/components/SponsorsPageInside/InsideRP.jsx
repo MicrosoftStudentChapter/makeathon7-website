@@ -1,15 +1,15 @@
 import React from 'react'
-import styles from './InsideFileLeft.module.css'
-import Title from './Title.jsx'
+import styles from './InsideR.module.css'
+import Power from './Power.jsx'
 
 const FileTitle = () => {
   return (
     <>
-        <div className={styles.filespagebgleft}>
-            <div className={styles.filespageleft1}>
-                <div className={styles.filespageleft2}>
+        <div className={styles.filespagebgR}>
+            <div className={styles.filespageR1}>
+                <div className={styles.filespageR2}>
                     <img className={styles.handprint}   src="public\Sponsors\ClosedFile\handprint.png"  alt="HandPrint"/>
-                    <Title />
+                    <Power />
                     <img className={styles.handcuffs}   src="public\Sponsors\ClosedFile\Hatkadi.png"    alt="Handcuffs"/>
                 </div>
             </div>

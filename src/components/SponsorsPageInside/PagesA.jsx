@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesLeftTitle from './InsideFileRightAssociate.jsx' 
-import FilesRightTitle from './InsideFileLeftAssociate.jsx' 
+import FilesLeftTitle from './InsideLA.jsx' 
+import FilesRightTitle from './InsideRA.jsx' 
 
 const PagesT = () => {
   return (

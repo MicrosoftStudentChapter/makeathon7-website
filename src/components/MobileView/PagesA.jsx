@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Pages.module.css'
-import FilesRightTitle from './InsideFileRightAssociate.jsx' 
+import FilesRightTitle from './InsideAssociate.jsx' 
 
 const PagesT = () => {
   return (
@@ -12,7 +12,7 @@ const PagesT = () => {
 
         <div className={styles.sidebar}>
           <div className={styles.whitebar}>
-            {/* <div className={styles.turn90}>172.36F.GH99</div> */}
+            <div className={styles.turn90}>172.36F.GH99</div>
           </div>
         </div>
 
