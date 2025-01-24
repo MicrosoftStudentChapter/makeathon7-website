@@ -3,7 +3,6 @@ import styles from './Sponsors.module.css';
 const Whysus = () => {
   return (
     <>
-      <div className={styles.Sponsors}>
         <h1 className={styles.SponsorTitle}>Why Sponsor us?</h1>
 
         <ul>
@@ -46,8 +45,6 @@ const Whysus = () => {
           </p></li>
 
         </ul>
-
-      </div>
     </>
   );
 };

@@ -22,10 +22,12 @@ const Sponsors = () => {
 
   let content;
   if (scrollPosition > 600) {
+    content = <Whysus />;
+  } else if (scrollPosition > 450) {
     content = <PagesA />;
-  } else if (scrollPosition > 400) {
+  } else if (scrollPosition > 300) {
     content = <PagesP />;
-  } else if (scrollPosition > 200) {
+  } else if (scrollPosition > 150) {
     content = <PagesT />;
   } else {
     content = <ClosedFile />;
@@ -33,7 +35,7 @@ const Sponsors = () => {
 
   return (
     <>
-      <div className={`${styles.wrapper} ${scrollPosition > 200 ? styles.scrolled : ''}`}>
+      <div className={`${styles.wrapper} ${scrollPosition > 200 ? styles.scrolled : ''} ${scrollPosition>600 ? styles.wrapperWSUS: ''}`}>
         <div className={styles.container}>  
 
           <div className={styles.AbsoluteFixed}>
@@ -42,7 +44,7 @@ const Sponsors = () => {
             <div className={styles.fade}>{content}</div>
           </div>
 
-          <Whysus />
+          {/* <Whysus /> */}
 
         </div>
       </div>
