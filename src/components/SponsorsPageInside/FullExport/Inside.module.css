@@ -1,0 +1,173 @@
+.filespagebgL{
+    background-color: #9E9683;
+    margin: -6.5vw;
+    rotate: -6deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+    top: 1vw;
+}
+
+.filespageL1{
+    background-color: #B4AA96;
+    rotate: 3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+    top: -0.7vw;
+    left: 1vw;
+}
+
+.filespageL2{
+    background-color: #CBC0A9;
+    rotate: 3deg;
+    height: 80vh;
+    width: 26vw;
+    position: relative;
+    top: -0.7vw;
+    left: 1vw;
+}
+
+.filespagebgR{
+    background-color: #9E9683;
+    margin: -6.5vw;
+    rotate: 6deg;
+    height: 90%;
+    width: 80%;
+    position: relative;
+    top: 1vw;
+}
+
+.filespageR1{
+    background-color: #B4AA96;
+    rotate: -3deg;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -0.7vw;
+    left: -1vw;
+}
+
+.filespageR2{
+    background-color: #CBC0A9;
+    rotate: -3deg;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -0.7vw;
+    left: -1vw;
+}
+
+.handprint {
+    overflow: hidden;
+    position: absolute;
+    top: -5vw;
+    right: -5vw;
+    width: auto;
+    height: 15vw; 
+    opacity: 0.25; 
+}
+
+.handcuffs {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    bottom: -5vw;
+    right: -5vw;
+    width: 15vw; 
+    height: auto;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 7.5vw;
+    right: 1.5vw;
+    height: auto; 
+    opacity: 0.4; 
+}
+
+.SpyGunLogo{
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 7.5vw;
+    left: 1.5vw;
+    height: auto; 
+    opacity: 2; 
+}
+
+.invi {
+    color: transparent; 
+}   
+
+@media screen and (max-width:500px) {
+    .filespagebgL{
+        color: transparent;
+        height: 0vh;
+        width: 0vw;
+    }
+    
+    .filespageL1{
+        color: transparent; 
+        height: 0vh;
+        width: 0vw;
+    }
+    
+    .filespageL2{
+        color: transparent; 
+        height: 0vh;
+        width: 0vw;
+    }
+    
+    .handprint {
+        overflow: hidden;
+        position: absolute;
+        top: -5vw;
+        right: -5vw;
+        width: auto;
+        height: 40vw; 
+        opacity: 0.25; 
+    }
+    
+    .handcuffs {
+        overflow: hidden;
+        display: flex;
+        position: absolute;
+        bottom: -7vw;
+        right: -12vw;
+        width: 30vw; 
+        height: auto;
+    }
+    
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .target {
+        color: transparent; 
+        width: 0;
+        height: 0;
+    }
+    
+    .SpyGunLogo{
+        color: transparent; 
+        width: 0;
+        height: 0;
+    }
+    
+    .invi {
+        color: transparent; 
+    }   
+}
