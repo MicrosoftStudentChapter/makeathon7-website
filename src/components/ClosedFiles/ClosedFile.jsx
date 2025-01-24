@@ -4,7 +4,7 @@ import styles from './ClosedFile.module.css'
 const ClosedFile = () => {
   return (
     <>
-    
+
       <div className={styles.basefile}>
         <img src="Sponsors\ClosedFile\Special Mission.png" className={styles.special} />
         <img src="Sponsors\ClosedFile\Spy.png" className={styles.spy} height={180} width={140} /> 
