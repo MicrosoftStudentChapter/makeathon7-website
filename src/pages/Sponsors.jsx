@@ -40,6 +40,8 @@ const Sponsors = () => {
           <div className={styles.AbsoluteFixed}>
             <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
             <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" />
+            <img className={styles.AnyaF} src="/Sponsors/AnyaF.png" alt="Shh" />
+            <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />
             <div className={styles.fade}>{content}</div>
           </div>
         </div>
