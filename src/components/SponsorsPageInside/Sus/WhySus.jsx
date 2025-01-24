@@ -1,11 +1,8 @@
 import React from "react";
-import styles from '../styles/Sponsors.module.css';
-import stylebg from './WhySus.module.css'
+import styles from './Sponsors.module.css';
 const Whysus = () => {
   return (
     <>
-    <div className={stylebg.whysusbg}>
-
       <div className={styles.Sponsors}>
         <h1 className={styles.SponsorTitle}>Why Sponsor us?</h1>
 
@@ -51,8 +48,6 @@ const Whysus = () => {
         </ul>
 
       </div>
-
-    </div>
     </>
   );
 };

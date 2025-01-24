@@ -7,20 +7,20 @@ const PagesT = () => {
   return (
     <>
       <div className={styles.main}>
-        <div className={styles.sidebar}>
-          <div className={styles.whitebar}></div>
+        <div className={styles.sidebarL}>
+          <div className={styles.whitebarL}></div>
         </div>
 
-        <div className={styles.container}>
+        <div className={styles.containerL}>
           <LT />
         </div>
 
-        <div className={styles.container}>
+        <div className={styles.containerR}>
           <RT />
         </div>
-
-        <div className={styles.sidebar}>
-          <div className={styles.whitebar}>
+    
+        <div className={styles.sidebarR}>
+          <div className={styles.whitebarR}>
             <div className={styles.turn90}>172.36F.GH99</div>
           </div>
         </div>

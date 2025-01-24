@@ -4,9 +4,6 @@ import PagesT from '../components/SponsorsPageInside/FullExport/PagesT.jsx';
 import PagesP from '../components/SponsorsPageInside/FullExport/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/FullExport/PagesA.jsx';
 import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
-import PagesTM from '../components/MobileView/PagesT.jsx';
-import PagesPM from '../components/MobileView/PagesP.jsx';
-import PagesAM from '../components/MobileView/PagesA.jsx';
 import Whysus from '../components/SponsorsPageInside/Sus/WhySus.jsx';
 
 const Sponsors = () => {
@@ -25,11 +22,11 @@ const Sponsors = () => {
 
   let content;
   if (scrollPosition > 600) {
-    content = <PagesAM />;
+    content = <PagesA />;
   } else if (scrollPosition > 400) {
-    content = <PagesPM />;
+    content = <PagesP />;
   } else if (scrollPosition > 200) {
-    content = <PagesTM />;
+    content = <PagesT />;
   } else {
     content = <ClosedFile />;
   }

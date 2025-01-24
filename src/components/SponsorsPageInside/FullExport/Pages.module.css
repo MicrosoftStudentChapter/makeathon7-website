@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.container {
+.containerL {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,49 @@
     border-radius: 1.5vh;
 }
 
-.sidebar{
+.containerR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5vw;
+    margin: .25vw;
+    height: 92.5vh;
+    width: 35vw;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+
+.sidebarL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.6vw;
+    height: 30vh;
+    width: 4vw;
+    top: -5vw;
+    background-color: rgb(224, 200, 169);
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+    margin-top: 50vh;
+    }
+    
+.whitebarL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 1.2vw;
+    background-color: #9E9683;
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+}
+        
+.sidebarR{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +79,7 @@
     margin-top: 50vh;
 }
 
-.whitebar{
+.whitebarR{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +93,62 @@
 
 .turn90{
     rotate: 90deg;
+}
+
+@media screen and (max-width:431px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        position: relative;
+    }
+    
+    .containerL {
+        color: transparent;
+        height: 0;
+        width: 0;
+    }
+    
+    .containerR {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .3vw;
+        height: 60vh;
+        width: 80vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: fixed;
+        border-radius: 1.5vh;
+        left: 10vw;
+        top: 30vh;
+    }
+
+    .sidebarL{
+        height: 0;
+        width: 0;
+    }
+    
+    .whitebarL{
+        height: 0;
+        width: 0;
+    }
+
+    .sidebarR{
+        height: 0;
+        width: 0;
+    }
+    
+    .whitebarR{
+        height: 0;
+        width: 0;
+    }
+    
+    .turn90{
+        height: 0;
+        width: 0;
+    }
 }

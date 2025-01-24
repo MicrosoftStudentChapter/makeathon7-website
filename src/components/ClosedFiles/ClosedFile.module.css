@@ -58,7 +58,6 @@
 
 @media screen and (max-width:431px) {
     .basefile {
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -67,10 +66,10 @@
         width: 80vw;
         background-color: rgb(224, 200, 169);
         background-position: center;
-        position: relative;
+        position: fixed;
         border-radius: 1.5vh;
-        left: -7px;
-        top: 25vh;
+        left: 10vw;
+        top: 30vh;
     
     }
     .special{
