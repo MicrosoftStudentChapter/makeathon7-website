@@ -138,13 +138,23 @@
     }
 
     .sidebarR{
-        height: 0;
-        width: 0;
+        position: absolute;
+        top: -25vh;
+        left: 90vw;
+        height: 25vh;
+        width: 7.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
     }
     
     .whitebarR{
-        height: 0;
-        width: 0;
+        position: relative;
+        height: 20vh;
+        width: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .turn90{
