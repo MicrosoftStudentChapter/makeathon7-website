@@ -3,7 +3,7 @@ import styles from '../styles/Sponsors.module.css';
 import PagesT from '../components/SponsorsPageInside/FullExport/PagesT.jsx';
 import PagesP from '../components/SponsorsPageInside/FullExport/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/FullExport/PagesA.jsx';
-import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
+import ClosedFile from '../components/SponsorsPageInside/ClosedFiles/ClosedFile.jsx';
 import Whysus from '../components/SponsorsPageInside/Sus/WhySus.jsx';
 // import Image from 'public/Sponsors/Girl.png';
 
