@@ -5,6 +5,7 @@ import PagesP from '../components/SponsorsPageInside/FullExport/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/FullExport/PagesA.jsx';
 import ClosedFile from '../components/ClosedFiles/ClosedFile.jsx';
 import Whysus from '../components/SponsorsPageInside/Sus/WhySus.jsx';
+// import Image from 'public/Sponsors/Girl.png';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -21,17 +22,27 @@ const Sponsors = () => {
   }, []);
 
   let content;
-  if (scrollPosition > 600) {
+  if (scrollPosition > 600) 
+    {
     content = <Whysus />;
-  } else if (scrollPosition > 450) {
+    // image = <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />;
+    } 
+  else if (scrollPosition > 450) 
+    {
     content = <PagesA />;
-  } else if (scrollPosition > 300) {
+    } 
+  else if (scrollPosition > 300) 
+    {
     content = <PagesP />;
-  } else if (scrollPosition > 150) {
+    } 
+  else if (scrollPosition > 150) 
+    {
     content = <PagesT />;
-  } else {
-    content = <ClosedFile />;
-  }
+    } 
+  else 
+    {
+      content = <ClosedFile />;
+    }
 
   return (
     <>
@@ -41,7 +52,6 @@ const Sponsors = () => {
             <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
             <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" />
             <img className={styles.AnyaF} src="/Sponsors/AnyaF.png" alt="Shh" />
-            <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />
             <div className={styles.fade}>{content}</div>
           </div>
         </div>

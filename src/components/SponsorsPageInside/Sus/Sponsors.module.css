@@ -76,7 +76,7 @@
 }
 
 .SponsorHeadings {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Montserrat";
   color: rgb(218, 65, 65);
 }
@@ -99,4 +99,19 @@ html,
 body {
   height: 100%;
   margin: 0;
+}
+
+.Girl{
+  position: fixed;  
+  bottom: -4vw; 
+  left: -1vw;
+  width: 70vh; 
+  height: auto;
+}
+
+@media screen and (max-width:500px) {
+  .Girl{
+    height: 0;
+    width: 0;
+  }
 }

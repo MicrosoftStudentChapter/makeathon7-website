@@ -11,6 +11,8 @@ const PagesA = () => {
           <div className={styles.whitebarL}></div>
         </div>
 
+        <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />;
+
         <div className={styles.containerL}>
           <LA />
         </div>

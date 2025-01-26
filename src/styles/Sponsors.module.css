@@ -111,11 +111,3 @@ li p {
   width: 5vw; 
   height: auto;
 }
-
-.Girl{
-  position: fixed;  
-  bottom: -4vw; 
-  left: -1vw;
-  width: 70vh; 
-  height: auto;
-}

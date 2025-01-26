@@ -95,7 +95,20 @@
     rotate: 90deg;
 }
 
-@media screen and (max-width:431px) {
+.Girl{
+    position: fixed;  
+    bottom: -4vw; 
+    left: -1vw;
+    width: 70vh; 
+    height: auto;
+  }
+  
+@media screen and (max-width:500px) {
+    .Girl{
+        height: 0;
+        width: 0;
+    }
+    
     .main {
         display: flex;
         justify-content: center;
