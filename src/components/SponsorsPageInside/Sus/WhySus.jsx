@@ -5,7 +5,7 @@ const Whysus = () => {
     <>
         <h1 className={styles.SponsorTitle}>Why Sponsor us?</h1>
 
-        <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />;
+        <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />
 
         <ul>
 
