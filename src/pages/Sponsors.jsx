@@ -25,7 +25,6 @@ const Sponsors = () => {
   if (scrollPosition > 600) 
     {
     content = <Whysus />;
-    // image = <img className={styles.Girl} src="/Sponsors/Girl.png" alt="Girl" />;
     } 
   else if (scrollPosition > 450) 
     {
