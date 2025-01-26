@@ -6,7 +6,7 @@ const FilesPower = () => {
   return (
     <>
                 <h1 classname={styles.invi}>&nbsp;</h1>
-                <h1 align="center">TITLE</h1>
+                <h1 align="center">TITLE SPONSORS</h1>
 
                 <div className={styles.center}><SmallBox/></div>
     </>

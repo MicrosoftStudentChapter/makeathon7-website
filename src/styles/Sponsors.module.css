@@ -107,7 +107,7 @@ li p {
 .AnyaF{
   position: fixed;  
   bottom: -0vw; 
-  right: -2vw;
-  width: 5vw; 
+  right: -0.5vw;
+  width: 2vw; 
   height: auto;
 }
