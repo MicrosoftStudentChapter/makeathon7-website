@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-start; 
   align-items: center;
-  width: 25%;
-  height: 30%;
+  width: 30%;
+  height: 40%;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
@@ -42,13 +42,13 @@
       flex-direction: column;
       justify-content: flex-start; 
       align-items: center;
-      width: 25%;
-      height: 30%;
+      width: 40%;
+      height: 50%;
       background-color: white;
       border: 1px solid #ccc;
       box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
-      margin: 20px;
-      padding: 5px 3.33px 3.33px 3.33px; 
+      margin : 5vw;
+      padding: 2px 3.33px 3.33px 3.33px; 
     }
     
     .blackBox {

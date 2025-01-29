@@ -111,3 +111,21 @@ li p {
   width: 5vw; 
   height: auto;
 }
+
+
+@media screen and (max-width:431px) {
+  .logo {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    width: 35vw; 
+  }
+
+  .menu {
+    position: fixed;
+    top: 10px; 
+    right: 10px;
+    width: 20vw; 
+    height: 20vw;
+  }
+}

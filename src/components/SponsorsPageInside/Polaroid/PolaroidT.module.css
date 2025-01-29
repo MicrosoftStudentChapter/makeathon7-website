@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-start; 
   align-items: center;
-  width: 90%;
-  height: 70%;
+  width: 20vw;
+  height: 50vh;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
@@ -37,18 +37,19 @@
   text-align: center;
 }
 @media screen and (max-width:431px) {
-    .polaroid {
+    
+  .polaroid {
       display: flex;
       flex-direction: column;
       justify-content: flex-start; 
       align-items: center;
-      width: 25%;
-      height: 30%;
+      width: 70%;
+      height: 100%;
       background-color: white;
       border: 1px solid #ccc;
       box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
-      margin: 20px;
-      padding: 5px 3.33px 3.33px 3.33px; 
+      margin: 10vw;
+      padding: 2.5vw 3.33px 3.33px 3.33px; 
     }
     
     .blackBox {

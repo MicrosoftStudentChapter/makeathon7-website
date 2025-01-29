@@ -137,7 +137,7 @@
         position: fixed;
         border-radius: 1.5vh;
         left: 10vw;
-        top: 30vh;
+        top: 20vh;
     }
 
     .sidebarL{
@@ -153,7 +153,7 @@
     .sidebarR{
         position: absolute;
         top: -25vh;
-        left: 90vw;
+        left: 82.5vw;
         height: 25vh;
         width: 7.5vw;
         display: flex;
