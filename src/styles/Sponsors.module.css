@@ -5,12 +5,12 @@ body {
 }
 
 .wrapper {
-    transition: background 5s ease; 
+    transition: background 0s ease; 
     height: 100%;
     width: 100%; 
     background: url('Sponsors/background.png') no-repeat center center;
     background-size: cover; 
-    background-position: fixed;
+    background-position: top;
     background-attachment: fixed;
   }
   
@@ -95,7 +95,7 @@ li p {
 }
 
 .wrapperWSUS{
-  transition: background 5s ease; 
+  transition: background 0s ease; 
   min-height: 100vh;
   width: 100vw; 
   background: url('Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
