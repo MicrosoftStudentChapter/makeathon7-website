@@ -114,4 +114,16 @@ body {
     height: 0;
     width: 0;
   }
+
+  .wrapper {
+    transition: background 0s ease; 
+    /* min-height: 100vh; */
+    rotate: 90deg;
+    height: 100vw;  
+    width: 100vh; 
+    background: url('Sponsors/background.png') no-repeat center center;
+    /* background-size: cover;  */
+    background-position: fixed;
+    background-attachment: fixed;
+  }
 }
