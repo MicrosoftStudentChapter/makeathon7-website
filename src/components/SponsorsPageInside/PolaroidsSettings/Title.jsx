@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../FullExport/Inside.module.css'
-import SmallBox from '../Polaroid/Polaroid.jsx' 
+import SmallBox from '../Polaroid/PolaroidT.jsx' 
 
 const FilesPower = () => {
   return (
