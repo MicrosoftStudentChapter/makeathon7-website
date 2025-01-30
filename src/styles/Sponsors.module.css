@@ -39,8 +39,7 @@ body {
 
 .logo {
   position: fixed;
-  top: 10px; 
-  left: 10px; 
+  top: 1.5%;
   width: 7vw; 
 }
 
@@ -72,8 +71,7 @@ body {
 @media screen and (max-width:431px) {
   .logo {
     position: fixed;
-    top: 10px; 
-    left: 10px; 
+    left: -1%;
     width: 25%; 
   }
 

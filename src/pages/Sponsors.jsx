@@ -51,7 +51,7 @@ const Sponsors = () => {
             <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
             <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" />
             <img className={styles.AnyaF} src="/Sponsors/AnyaF.png" alt="Shh" />
-            <div className={styles.fade}>{content}</div>
+            <div>{content}</div>
           </div>
         </div>
       </div>
