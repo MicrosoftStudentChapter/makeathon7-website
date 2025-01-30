@@ -1,13 +1,3 @@
-.wrapper {
-    transition: background 0s ease; 
-    min-height: 100vh;
-    width: 100vw; 
-    background: url('Sponsors/background.png') no-repeat center center;
-    background-size: cover; 
-    background-position: 10vw;
-    background-attachment: fixed;
-  }
-  
   .scrolled {
     background: linear-gradient(#571112, #160B08);
   }
