@@ -128,4 +128,14 @@ li p {
     width: 20vw; 
     height: 20vw;
   }
+  .wrapperWSUS{
+    transition: background 0s ease; 
+    min-height: 100vh;
+    width: 100vw; 
+    background: url('Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
+    background-size: 200vw;
+    background-position: center 60vw;
+    background-attachment: fixed;
+    background-color: #f8ac64;
+  }
 }
