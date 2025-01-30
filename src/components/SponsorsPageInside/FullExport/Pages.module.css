@@ -152,7 +152,7 @@
 
     .sidebarR{
         position: absolute;
-        top: 12.5%;
+        top: 47.5%;
         left: 82.5%;
         height: 25%;
         width: 10%;
@@ -162,7 +162,6 @@
     }
     
     .turn90{
-        height: 0;
-        width: 0;
+        margin-left: 0vw;
     }
 }

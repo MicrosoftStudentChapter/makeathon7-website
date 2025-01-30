@@ -51,15 +51,15 @@ li p {
     width: 0;
   }
   .SponsorTitle {
-    font-size: 2.5rem;
-    margin-top: 14vw;
-    margin-left: -5vw;
+    font-size: 3rem;
+    margin-top: 17vw;
+    margin-left: -7vw;
   }
   .SponsorHeadings {
-    font-size: 1.55rem;
+    font-size: 1.50rem;
   }
   .SponsorText {
-    font-size: 1.25rem;
+    font-size: 1.10rem;
   }
 
 }
