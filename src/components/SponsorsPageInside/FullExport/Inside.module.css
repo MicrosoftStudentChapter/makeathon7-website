@@ -20,6 +20,7 @@
 
 .filespageL2{
     background-color: #CBC0A9;
+    overflow: hidden;
     rotate: 3deg;
     height: 100%;
     width: 100%;
@@ -50,6 +51,7 @@
 
 .filespageR2{
     background-color: #CBC0A9;
+    overflow: hidden;
     rotate: -3deg;
     height: 100%;
     width: 100%;
@@ -59,7 +61,6 @@
 }
 
 .handprint {
-    overflow: hidden;
     position: absolute;
     top: -5vw;
     right: -5vw;
