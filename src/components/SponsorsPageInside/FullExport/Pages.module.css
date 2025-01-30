@@ -152,22 +152,13 @@
 
     .sidebarR{
         position: absolute;
-        top: -25vh;
-        left: 82.5vw;
-        height: 25vh;
-        width: 7.5vw;
+        top: 12.5%;
+        left: 82.5%;
+        height: 25%;
+        width: 10%;
         display: flex;
         justify-content: center;
         align-items: center;  
-    }
-    
-    .whitebarR{
-        position: relative;
-        height: 20vh;
-        width: 5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     .turn90{
