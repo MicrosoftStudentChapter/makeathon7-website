@@ -9,13 +9,13 @@ const Whysus = () => {
 
         <ul>
 
-          <li><p>
+          <li><p className={styles.SponsorText}>
             <strong className={styles.SponsorHeadings}>Youth Hub:</strong> The
             Youth Hub Of The Organization Is A Huge Reach, As It Has A Large
             Student Population Of 10000+ People On Campus.
           </p></li>
 
-          <li><p>
+          <li><p className={styles.SponsorText}>
             <strong className={styles.SponsorHeadings}>
               Connecting Tech Enthusiasts All Over India:
             </strong>{" "}
@@ -25,7 +25,7 @@ const Whysus = () => {
             Most Prominent Educational Institutions Such As IITs And NITs.
           </p></li>
 
-          <li><p>
+          <li><p className={styles.SponsorText}>
             <strong className={styles.SponsorHeadings}>
               Flagship Events:
             </strong>{" "}
@@ -36,7 +36,7 @@ const Whysus = () => {
             Of Your Brand.
           </p></li>
 
-          <li><p>
+          <li><p className={styles.SponsorText}>
             <strong className={styles.SponsorHeadings}>
               Best Way To Kickstart Your Campaign:
             </strong>{" "}
