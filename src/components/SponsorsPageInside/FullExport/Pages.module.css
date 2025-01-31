@@ -14,8 +14,8 @@
     align-items: center;
     top: -5vw;
     margin: .25vw;
-    height: 92.5vh;
-    width: 35vw;
+    height: 92.5%;
+    width: 35%;
     background-color: rgb(224, 200, 169);
     background-position: center;
     position: relative;
@@ -28,8 +28,8 @@
     align-items: center;
     top: -5vw;
     margin: .25vw;
-    height: 92.5vh;
-    width: 35vw;
+    height: 92.5%;
+    width: 35%;
     background-color: rgb(224, 200, 169);
     background-position: center;
     position: relative;
@@ -41,23 +41,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -1.6vw;
-    height: 30vh;
-    width: 4vw;
-    top: -5vw;
+    margin: -1.6%;
+    height: 30%;
+    width: 4%;
+    top: -10%;
     background-color: rgb(224, 200, 169);
     background-position: bottom;
     position: relative;
     border-radius: 1.5vh;
-    margin-top: 50vh;
+    margin-top: 22.5%;
     }
     
 .whitebarL{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
-    width: 1.2vw;
+    height: 80%;
+    width: 35%;
     background-color: #9E9683;
     background-position: bottom;
     position: relative;
@@ -68,23 +68,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -1.6vw;
-    height: 30vh;
-    width: 4vw;
-    top: -5vw;
+    margin: -1.6%;
+    height: 30%;
+    width: 4%;
+    top: -10%;
     background-color: rgb(224, 200, 169);
     background-position: bottom;
     position: relative;
     border-radius: 1.5vh;
-    margin-top: 50vh;
+    margin-top: 22.5%;
 }
 
 .whitebarR{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
-    width: 1.2vw;
+    height: 80%;
+    width: 35%;
     background-color: #9E9683;
     background-position: bottom;
     position: relative;
@@ -130,7 +130,7 @@
         justify-content: center;
         align-items: center;
         margin: .3vw;
-        height: 60vh;
+        height: 70%;
         width: 80vw;
         background-color: rgb(224, 200, 169);
         background-position: center;
@@ -152,27 +152,17 @@
 
     .sidebarR{
         position: absolute;
-        top: -25vh;
-        left: 82.5vw;
-        height: 25vh;
-        width: 7.5vw;
+        top: 47.5%;
+        left: 82.5%;
+        height: 25%;
+        width: 10%;
         display: flex;
         justify-content: center;
         align-items: center;  
     }
     
-    .whitebarR{
-        position: relative;
-        height: 20vh;
-        width: 5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .turn90{
-        height: 0;
-        width: 0;
+        margin-left: 0vw;
     }
 }
 

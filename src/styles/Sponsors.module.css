@@ -5,93 +5,17 @@ body {
 }
 
 .wrapper {
-    transition: background 0s ease; 
-    height: 100%;
-    width: 100%; 
-    background: url('Sponsors/background.png') no-repeat center center;
-    background-size: cover; 
-    background-position: top;
-    background-attachment: fixed;
-  }
-  
+  transition: background 0s ease; 
+  height: 100%;
+  width: 100%; 
+  background: url('Sponsors/background.png') no-repeat center center;
+  background-size: cover; 
+  background-position: top;
+  background-attachment: fixed;
+}
+
 .scrolled {
   background: linear-gradient(#8a1e20, #000000);
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; 
-  align-items: center;
-  min-height: 200vh; 
-  width: 100%; 
-  padding-top: 75px;
-}
-
-.sponsors {
-  padding: 1.5vw; 
-
-}
-
-.logo {
-  position: fixed;
-  top: 10px; 
-  left: 10px; 
-  width: 7vw; 
-}
-
-.menu {
-  position: fixed;
-  top: 10px; 
-  right: 10px;
-  width: 5vw; 
-  height: 5vw;
-}
-
-.fade {
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
-.fade-exit {
-  opacity: 0;
-}
-
-.AbsoluteFixed{
-  position:Fixed;
-  position: top;
-  top: 4vw;
-  left: 7vw;
-  position: center;
-}
-
-.SponsorTitle {
-  padding-top: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5rem;
-  font-family: "Poppins";
-}
-
-.SponsorHeadings {
-  font-size: 2.5rem;
-  font-family: "Montserrat";
-  color: rgb(218, 65, 65);
-}
-
-ul {
-  padding: 2% 20%;
-  list-style-type: none;
-}
-
-li {
-  padding: 20px;
-}
-
-li p {
-  font-size: 1.5rem;
-  font-family: "Poppins";
 }
 
 .wrapperWSUS{
@@ -102,6 +26,38 @@ li p {
   background-size: cover; 
   background-position: top;
   background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  min-height: 200vh; 
+  width: 100%; 
+}
+
+.logo {
+  position: fixed;
+  top: 1.5%;
+  width: 7vw; 
+  left: 0%;
+}
+
+.menu {
+  position: fixed;
+  top: 10px; 
+  right: 10px;
+  width: 5vw; 
+  height: 5vw;
+}
+
+.AbsoluteFixed{
+  position:Fixed;
+  position: top;
+  top: 4vw;
+  left: 7vw;
+  position: center;
 }
 
 .AnyaF{
@@ -116,9 +72,8 @@ li p {
 @media screen and (max-width:431px) {
   .logo {
     position: fixed;
-    top: 10px; 
-    left: 10px; 
-    width: 35vw; 
+    left: -1%;
+    width: 25%; 
   }
 
   .menu {
@@ -128,13 +83,14 @@ li p {
     width: 20vw; 
     height: 20vw;
   }
+
   .wrapperWSUS{
     transition: background 0s ease; 
     min-height: 100vh;
     width: 100vw; 
     background: url('Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
     background-size: 200vw;
-    background-position: center 57vw;
+    background-position: center 60vw;
     background-attachment: fixed;
     background-color: #f8ac64;
   }

@@ -24,23 +24,23 @@ const Sponsors = () => {
   let content;
   if (scrollPosition > 600) 
     {
-    content = <Whysus />;
+    content = <Whysus />
     } 
   else if (scrollPosition > 450) 
     {
-    content = <PagesA />;
+    content = <PagesA />
     } 
   else if (scrollPosition > 300) 
     {
-    content = <PagesP />;
+    content = <PagesP />
     } 
   else if (scrollPosition > 150) 
     {
-    content = <PagesT />;
+    content = <PagesT />
     } 
   else 
     {
-      content = <ClosedFile />;
+      content = <ClosedFile />
     }
 
   return (
@@ -51,7 +51,7 @@ const Sponsors = () => {
             <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
             <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" />
             <img className={styles.AnyaF} src="/Sponsors/AnyaF.png" alt="Shh" />
-            <div className={styles.fade}>{content}</div>
+            <div>{content}</div>
           </div>
         </div>
       </div>
