@@ -169,18 +169,27 @@
 /* For surface pro 7  */
 @media screen and (max-width:913px) and (min-width:431px){
     .containerL{
-        visibility: hidden;
+        height: 0 ;
+        width: 0 ;    
     }
     .Girl{
-        visibility: hidden;
+        height: 0 ;
+        width: 0 ;
     }
     .sidebarL{
-        visibility: hidden;
+        height: 0 ;
+        width: 0 ;
     }
     .containerR{
         height: 80vh;
-        width: 120vw;
-        left: -20vw;
+        width: 80%;
+        left: -2vw;
+        top: 2vh;
+    }
+
+    .sidebarR{
+        left: -3vw;
+        width: 7vw;
     }
     
 }

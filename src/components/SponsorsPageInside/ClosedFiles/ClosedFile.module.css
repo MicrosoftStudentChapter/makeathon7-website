@@ -130,14 +130,14 @@
         justify-content: center;
         align-items: center;
         margin: .3vw;
-        height: 66vh;
-        width: 80vw;
         background-color: rgb(224, 200, 169);
         background-position: center;
         position: fixed;
         border-radius: 1.5vh;
-        left: 10vw;
-        top: 17vh;
+        height: 80vh;
+        width: 80%;
+        left: 11vw;
+        top: 14vh;
     
     }
     .special{
