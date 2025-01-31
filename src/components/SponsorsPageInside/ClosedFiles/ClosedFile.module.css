@@ -19,25 +19,26 @@
 }
 .special{
     position: absolute;
-    top: 350px;
+    top: 50vh;
 }
 .spy{
     position: absolute;
-    left: 30px;
-    top: 450px;
+    left: 20px;
+    top: 65vh;
 }
 .secret{
     position: absolute;
-    top: -50px;
-    left: 280px;
+    top: -4vh;
+    left: 17vw;
 }
 .sp{
     position: absolute;
-    top: 280px;
+    top: 40vh;
 }
 .txt{
     position: absolute;
-    top: 490px;
+    width: 25vw;
+    top: 74vh;
     left: 180px;
 }
 .codebox{
@@ -46,9 +47,9 @@
     background-color: rgb(224, 200, 169);
     padding: 10px;
     height: 180px;
-    left: 536px;
-    top: 450px;
-    border-radius: 2px;
+    left: 34vw;
+    top: 60vh;
+    border-radius: 7px;
 
 }
 .code{
@@ -56,7 +57,7 @@
     top: 10px;
 }
 
-
+/* For iphone 14 pro max  */
 @media screen and (max-width:431px) {
     .basefile {
         display: flex;
@@ -104,6 +105,72 @@
         width: 46vw;
         top: 51vh;
         left: 30vw;
+    }
+    .codebox{
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: rgb(224, 200, 169);
+        padding: 10px;
+        height: 180px;
+        left: 77vw;
+        top: 35vh;
+        border-radius: 10px;
+    
+    }
+    .code{
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) {
+    .basefile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .3vw;
+        height: 66vh;
+        width: 80vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: fixed;
+        border-radius: 1.5vh;
+        left: 10vw;
+        top: 17vh;
+    
+    }
+    .special{
+        position: absolute;
+        height: 7vh;
+        top: 35vh;
+    }
+    .spy{
+        position: absolute;
+        height: 10vh;
+        width: 20vw;
+        left: 22px;
+        top: 50vh;
+    }
+    .secret{
+        position: absolute;
+        height: 20vh;
+        width: 40vw;
+        top: 1vh;
+        left: 40vw;
+    }
+    .sp{
+        position: absolute;
+        height: 5vh;
+        width: 70vw;
+        top: 28vh;
+    }
+    .txt{
+        position: absolute;
+        height: 6vh;
+        width: 46vw;
+        top: 52vh;
+        left: 27vw;
     }
     .codebox{
         position: absolute;

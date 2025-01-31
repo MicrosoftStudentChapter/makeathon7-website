@@ -63,3 +63,17 @@ li p {
   }
 
 }
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+  .Girl{
+    visibility: hidden;
+  }
+  .SponsorText{
+    font-size: 31px;
+    margin-top: 3vh;
+  }
+  .SponsorTitle{
+    margin-top: 2vh;
+  }
+}
