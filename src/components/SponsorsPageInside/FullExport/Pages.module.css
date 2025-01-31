@@ -175,3 +175,22 @@
         width: 0;
     }
 }
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+    .containerL{
+        visibility: hidden;
+    }
+    .Girl{
+        visibility: hidden;
+    }
+    .sidebarL{
+        visibility: hidden;
+    }
+    .containerR{
+        height: 80vh;
+        width: 120vw;
+        left: -20vw;
+    }
+    
+}

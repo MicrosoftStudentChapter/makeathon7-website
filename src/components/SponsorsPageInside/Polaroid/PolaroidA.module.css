@@ -76,3 +76,12 @@
     text-align: center;
   }
 }
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+  .polaroid{
+    width: 16vw;
+    margin-top: 5vh;
+  }
+  
+  
+}

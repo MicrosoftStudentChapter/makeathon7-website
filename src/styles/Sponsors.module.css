@@ -139,3 +139,12 @@ li p {
     background-color: #f8ac64;
   }
 }
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+  .logo{
+    height: 10vh;
+    width: 22vw;
+  }
+  
+}
