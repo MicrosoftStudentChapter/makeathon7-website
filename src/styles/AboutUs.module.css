@@ -14,6 +14,11 @@
         url(/AboutUs/fonts/Casino-Regular.woff) format("woff");
 }
 
+@font-face {
+    font-family: 'Jaro';
+    src: url(/AboutUs/fonts/Jaro.ttf);
+  }
+
 .BlackOverlay {
     width: 80vw;
     height: 100vh;
@@ -460,7 +465,7 @@
     height: 380px;
     border-radius: 6px;
     overflow: hidden;
-    background-image: url(//AboutUs/EBImages/card_bg.png);
+    background-image: url(/AboutUs/EBImages/card_bg.png);
     background-size: cover;
     box-shadow: 0 0 5rem rgba(255, 215, 0, 0.2);
 }
@@ -477,13 +482,14 @@
     left: 0;
     right: 0;
     padding: 20px;
-    background-image: url(//AboutUs/EBImages/cardtext.png);
+    background-image: url(/AboutUs/EBImages/cardtext.png);
     background-size: cover;
     text-align: center;
 }
 
 .cardInfo {
     color: #030000;
+    font-family: "Jaro", serif;
     font-size: 1rem;
     font-style: normal;
     line-height: normal;
@@ -1023,7 +1029,7 @@
         height: 21rem;
         border-radius: 5px;
         overflow: hidden;
-        background-image: url(//AboutUs/EBImages/card_bg.png);
+        background-image: url(/AboutUs/EBImages/card_bg.png);
     }
 
     .imageCard img {
@@ -1038,7 +1044,7 @@
         left: 0;
         right: 0;
         padding: 20px;
-        background-image: url(//AboutUs/EBImages/cardtext.png);
+        background-image: url(/AboutUs/EBImages/cardtext.png);
         background-size: cover;
         text-align: center;
     }
