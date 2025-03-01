@@ -197,7 +197,7 @@ const Faq = () => {
     {
       question: "What is Makeathon?",
       answer:
-        "MAKEATHON is one of the most premiere Hackathons in India, where 1500+ students of different skill levels come together from around India to experiment and create unique software or hardware projects from scratch. This 24 hour hackathon is filled with development, mentoring, fun and a night worth remembering.",
+        "MAKEATHON is one of the premier Hackathons in India, where 1500+ students of different skill levels come together from around India to experiment and create unique software or hardware projects from scratch. This 24 hour hackathon is filled with development, mentoring, fun and a night worth remembering.",
     },
     {
       question: "Can beginners participate in MAKEATHON?",
@@ -222,46 +222,46 @@ const Faq = () => {
     {
       question: "What is mode of hack?",
       answer:
-        "MAKEATHON will be a hybrid event i.e. it will be conducted both offline and online virtually",
+        "MAKEATHON will be a hybrid event i.e. it will be conducted both offline and online",
     },
     {
-      question: "What if I have never been to a hackeathon before?",
+      question: "What if I have never been to a hackathon before?",
       answer:
         "MAKEATHON welcomes students of all skill levels. We will have talks, mentors, and workshops to help you with your project. Just be eager to learn and excited to meet lots of awesome people.",
     },
     {
       question: "Can NON-TIET students participate in Makeathon?",
       answer:
-        "Yes. MAKEATHON7 is open to students from other institutions as well. And they can join us in the campus for offline hackathon as well..",
+        "Yes. MAKEATHON7 is open to students from other institutions as well. They can join us on campus for the offline hackathon",
     },
     {
-      question: "How can we chose our teammates?",
+      question: "How can we choose our teammates?",
       answer:
         "There is no restriction on the formation of the team. Participants can make teams irrespective of their institutions.",
     },
     {
-      question: "What kind of workshops and activities be there?",
+      question: "What kind of workshops and activities will be there?",
       answer:
-        "Previously, We have  held workshops and talks for a range of skills levels from beginner to advanced intro to React. Other workshops also explore various programming tools such as APIs, databases, and platforms. Whether it is for relaxation or health, novelty or competition, our team has something exciting prepared for you to enjoy.",
+        "Previously, we have  held workshops and talks for a range of skill levels, from beginner to advanced, including an introduction to React. Other workshops also explore various programming tools such as APIs, databases, and platforms. Whether it is for relaxation or health, novelty or competition, our team has something exciting prepared for you to enjoy.",
     },
     {
-      question: "What is judging criteria?",
+      question: "What are the judging criteria?",
       answer:
-        "The judging criteria involve concept, design, development, and presentation. A panel of judges would score the teams based on the criteria above, which would further determine the ranking of each team.",
+        "The judging criteria involve concept, design, development, and presentation. A panel of judges will score the teams based on the criteria above, which would further determine the ranking of each team.",
     },
     {
       question: "Will there be refreshments?",
       answer: "Yes, food and beverages will be provided throughout the event.",
     },
     {
-      question: "Will there be any bootcamp?",
+      question: "Will there be a bootcamp?",
       answer:
-        "Yes! A week-long MLSC BootCamp marks the beginning of the MAKEATHON7 starting on 19th February. You must register for bootcamp separately.",
+        "Yes! A week-long MLSC BootCamp marks the beginning of the MAKEATHON7 starting on 19th February. You must register for the bootcamp separately.",
     },
     {
       question: "Will there be prizes?",
       answer:
-        "Yes! Best performing participants will win exciting prizes. More information on the prizes is available at MAKEATHON7 official website. and MLSC social media handles.",
+        "Yes! The best performing participants will win exciting prizes. More information on the prizes is available at the MAKEATHON7 official website and MLSC social media handles.",
     },
     {
       question: "Will there be mentors?",
@@ -271,15 +271,15 @@ const Faq = () => {
     {
       question: "Do all team members need to be present in person?",
       answer:
-        "Yes, every team member should be present during various checkpoints. Since MAKEATHON7 is a HYBRID hackathon, every team member must be present in person if the team is offline or on discord channel if team is participating in online mode.",
+        "Yes, every team member should be present during various checkpoints. Since MAKEATHON7 is a HYBRID hackathon, every team member must be present in person if the team is offline or on the discord channel if the team is participating in online mode.",
     },
     {
-      question: "Will there be wireless net available?",
+      question: "Will Wi-Fi be available?",
       answer:
         "Yes! Wi-Fi will be provided at the venue for all offline mode participants.",
     },
     {
-      question: "Who will be the part of judging panel?",
+      question: "Who will be part of the judging panel?",
       answer:
         "The judging panel composition will be announced closer to the date of the hackathon.",
     },
