@@ -23,27 +23,27 @@ const BurgerAndNavPortion = () => {
         id="extension"
       >
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/">
             Home
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/aboutus">
             About
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/tracks">
             Tracks
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/timeline">
             Timeline
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/sponsors">
             Sponsors
           </a>
         </div>
