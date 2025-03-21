@@ -1,0 +1,38 @@
+[ {
+    "id":"EVENT 1",
+    "date": "22/02/25",
+    "time":"1:00 pm",
+    "venue":"TAN AUDI",
+    "description":"its going to be fun"
+},
+{
+    "id":"EVENT 2",
+    "date": "24/02/25",
+    "time":"2:00 pm",
+    "venue":"LP-106",
+    "description":"a wonderful experience"
+},
+{
+    "id":"EVENT 3",
+    "date": "26/02/25",
+    "time": "3:00 pm",
+    "venue": "T-104",
+    "description": "Wonders Await."
+
+},
+{
+    "id":"EVENT 4",
+    "date": "28/02/25",
+    "time": "4:00 pm",
+    "venue": "LT-101",
+    "description": "Lets goo"
+
+},
+{
+    "id":"EVENT 5",
+    "date": "1/03/25",
+    "time": "4:00 pm",
+    "venue": "LT-101",
+    "description": "Lets goo"
+}
+]

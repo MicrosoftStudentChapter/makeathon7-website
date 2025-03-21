@@ -1,0 +1,190 @@
+.basefile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -3vw;
+    margin: .25vw;
+    height: 92.5vh;
+    width: 35vw;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+    left : 110%;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+.special{
+    position: absolute;
+    top: 50vh;
+}
+.spy{
+    position: absolute;
+    left: 20px;
+    top: 65vh;
+}
+.secret{
+    position: absolute;
+    top: -4vh;
+    left: 17vw;
+}
+.sp{
+    position: absolute;
+    top: 40vh;
+}
+.txt{
+    position: absolute;
+    width: 25vw;
+    top: 74vh;
+    left: 180px;
+}
+.codebox{
+    position: absolute;
+    /* border: 2px solid red; */
+    background-color: rgb(224, 200, 169);
+    padding: 10px;
+    height: 180px;
+    left: 34vw;
+    top: 60vh;
+    border-radius: 7px;
+
+}
+.code{
+    position: relative;
+    top: 10px;
+}
+
+/* For iphone 14 pro max  */
+@media screen and (max-width:431px) {
+    .basefile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .3vw;
+        height: 60vh;
+        width: 80vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: fixed;
+        border-radius: 1.5vh;
+        left: 10vw;
+        top: 20vh;
+    
+    }
+    .special{
+        position: absolute;
+        height: 7vh;
+        top: 350px;
+    }
+    .spy{
+        position: absolute;
+        height: 10vh;
+        width: 20vw;
+        left: 20px;
+        top: 450px;
+    }
+    .secret{
+        position: absolute;
+        height: 20vh;
+        width: 40vw;
+        top: 1vh;
+        left: 40vw;
+    }
+    .sp{
+        position: absolute;
+        height: 5vh;
+        width: 70vw;
+        top: 280px;
+    }
+    .txt{
+        position: absolute;
+        height: 6vh;
+        width: 46vw;
+        top: 51vh;
+        left: 30vw;
+    }
+    .codebox{
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: rgb(224, 200, 169);
+        padding: 10px;
+        height: 180px;
+        left: 77vw;
+        top: 35vh;
+        border-radius: 10px;
+    
+    }
+    .code{
+        position: relative;
+        top: 10px;
+    }
+}
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) {
+    .basefile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .3vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: fixed;
+        border-radius: 1.5vh;
+        height: 80vh;
+        width: 80%;
+        left: 11vw;
+        top: 14vh;
+    
+    }
+    .special{
+        position: absolute;
+        height: 7vh;
+        top: 35vh;
+    }
+    .spy{
+        position: absolute;
+        height: 10vh;
+        width: 20vw;
+        left: 22px;
+        top: 50vh;
+    }
+    .secret{
+        position: absolute;
+        height: 20vh;
+        width: 40vw;
+        top: 1vh;
+        left: 40vw;
+    }
+    .sp{
+        position: absolute;
+        height: 5vh;
+        width: 70vw;
+        top: 28vh;
+    }
+    .txt{
+        position: absolute;
+        height: 6vh;
+        width: 46vw;
+        top: 52vh;
+        left: 27vw;
+    }
+    .codebox{
+        position: absolute;
+        /* border: 2px solid red; */
+        background-color: rgb(224, 200, 169);
+        padding: 10px;
+        height: 180px;
+        left: 77vw;
+        top: 35vh;
+        border-radius: 10px;
+    
+    }
+    .code{
+        position: relative;
+        top: 10px;
+    }
+}

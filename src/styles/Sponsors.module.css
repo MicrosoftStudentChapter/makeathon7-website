@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  transition: background 0s ease; 
+  height: 100%;
+  width: 100%; 
+  background: url('/Sponsors/background.png') no-repeat center center;
+  background-size: cover; 
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.scrolled {
+  background: linear-gradient(#8a1e20, #000000);
+}
+
+.wrapperWSUS{
+  transition: background 0s ease; 
+  min-height: 100vh;
+  width: 100vw; 
+  background: url('/Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
+  background-size: cover; 
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  min-height: 200vh; 
+  width: 100%; 
+}
+
+.logo {
+  position: fixed;
+  top: 1.5%;
+  width: 7vw; 
+  left: 0%;
+}
+
+.menu {
+  position: fixed;
+  top: 10px; 
+  right: 10px;
+  width: 5vw; 
+  height: 5vw;
+}
+
+.AbsoluteFixed{
+  position:Fixed;
+  position: top;
+  top: 4vw;
+  left: 7vw;
+  position: center;
+}
+
+.AnyaF{
+  position: fixed;  
+  bottom: -0vw; 
+  right: -2vw;
+  width: 5vw; 
+  height: auto;
+}
+
+
+@media screen and (max-width:431px) {
+  .logo {
+    position: fixed;
+    left: -1%;
+    width: 25%; 
+  }
+
+  .menu {
+    position: fixed;
+    top: 10px; 
+    right: 10px;
+    width: 20vw; 
+    height: 20vw;
+  }
+
+  .wrapperWSUS{
+    transition: background 0s ease; 
+    min-height: 100vh;
+    width: 100vw; 
+    background: url('/Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
+    background-size: 200vw;
+    background-position: center 60vw;
+    background-attachment: fixed;
+    background-color: #f8ac64;
+  }
+}
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+  .logo{
+    height: 10vh;
+    width: 22vw;
+  }
+  
+}

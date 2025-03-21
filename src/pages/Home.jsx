@@ -5,6 +5,7 @@ import CardContainer from "../components/CardContainer/CardContainer";
 import StackedCardContainer from "../components/StackedCardContainer/StackedCardContainer";
 import stackedStyles from "../components/StackedCardContainer/StackedCardContainer.module.css";
 import styles from "../styles/Home.module.css";
+import stylesLogo from "./IDK.module.css";
 
 const Home = () => {
   const homeRef = useRef(null);
@@ -27,8 +28,18 @@ const Home = () => {
 
     return () => clearInterval(interval);
   }, []);
-    
-  
+
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const scrollToTop = () => {
     if (isScrolledDown) {
       // Scroll up to the top
@@ -62,26 +73,35 @@ const Home = () => {
       />
       <Banner />
       <div className={styles.flickerEffect}></div>
+      <div className={stylesLogo.logoContainer}>
+        {" "}
+        {/* Wrap logos inside a div */}
+        <img
+          className={stylesLogo.devfolio}
+          src="/Sponsors/Devfolio-white.png"
+          alt="DEVFOLIO LOGO"
+        />
+        <img
+          className={stylesLogo.ethindia}
+          src="/Sponsors/ethindia-light.png"
+          alt="ETHINDIA LOGO"
+        />
+      </div>
       <div className={styles.button_container}>
-        <Buttons
-          iconType="devfolio"
-          onClick={() => alert("Well.....i work for now?")}
-          style={{
-            size: "48px",
-            height: "6vh",
-            width: "207px",
-          }}
-          backgroundColor="rgba(55, 112, 255, 1)"
-        >
-          Apply with DevFolio
-        </Buttons>
+        <div
+          className="apply-button"
+          data-hackathon-slug="makeathon-7"
+          data-button-theme="light"
+          style={{ height: "44px", width: "312px" }} // Change this line
+        ></div>
         <Buttons
           iconType="download"
           onClick={() => alert("Well.....i work for now?")}
           style={{
             size: "48px",
-            height: "6vh",
-            width: "207px",
+            height: "44px",
+            width: "312px",
+            fontSize: "18px",
           }}
         >
           Download Our App

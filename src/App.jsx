@@ -5,10 +5,20 @@ import Timeline from './pages/Timeline';
 import AboutUs from './pages/AboutUs';
 import Tracks from './pages/Tracks';
 import Sponsors from './pages/Sponsors';
+import AppPolicy from './pages/AppPolicy';
 
 function App() {
   return (
-    <AboutUs/>
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/tracks" element={<Tracks />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/policy" element={<AppPolicy />} />
+        </Routes>
+    </Router>
   );
 }
 

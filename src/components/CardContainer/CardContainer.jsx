@@ -10,7 +10,7 @@ import tracksImage from "../../assets/tracks.png";
 
 const CardContainer = () => {
   const cards = [
-    { angle: "-15deg", xOffset: "-12vw", backgroundImage: aboutImage, link: "/about" },
+    { angle: "-15deg", xOffset: "-12vw", backgroundImage: aboutImage, link: "/aboutus" },
     { angle: "-5deg", xOffset: "-4vw", backgroundImage: sponsorsImage, link: "/sponsors" },
     { angle: "5deg", xOffset: "4vw", backgroundImage: tracksImage, link: "/tracks" },
     { angle: "15deg", xOffset: "12vw", backgroundImage: timelineImage, link: "/timeline" },

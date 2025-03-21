@@ -1,0 +1,195 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    position: relative;
+}
+
+.containerL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5vw;
+    margin: .25vw;
+    height: 92.5%;
+    width: 35%;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+.containerR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -5vw;
+    margin: .25vw;
+    height: 92.5%;
+    width: 35%;
+    background-color: rgb(224, 200, 169);
+    background-position: center;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+
+.sidebarL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.6%;
+    height: 30%;
+    width: 4%;
+    top: -10%;
+    background-color: rgb(224, 200, 169);
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+    margin-top: 22.5%;
+    }
+    
+.whitebarL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 35%;
+    background-color: #9E9683;
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+}
+        
+.sidebarR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1.6%;
+    height: 30%;
+    width: 4%;
+    top: -10%;
+    background-color: rgb(224, 200, 169);
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+    margin-top: 22.5%;
+}
+
+.whitebarR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 35%;
+    background-color: #9E9683;
+    background-position: bottom;
+    position: relative;
+    border-radius: 1.5vh;
+}
+
+.turn90{
+    rotate: 90deg;
+}
+
+.Girl{
+    position: fixed;  
+    bottom: -4vw; 
+    left: -1vw;
+    width: 70vh; 
+    height: auto;
+  }
+  
+@media screen and (max-width:500px) {
+    .Girl{
+        height: 0;
+        width: 0;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        position: relative;
+    }
+    
+    .containerL {
+        color: transparent;
+        height: 0;
+        width: 0;
+    }
+    
+    .containerR {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .3vw;
+        height: 70%;
+        width: 80vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: fixed;
+        border-radius: 1.5vh;
+        left: 10vw;
+        top: 20vh;
+    }
+
+    .sidebarL{
+        height: 0;
+        width: 0;
+    }
+    
+    .whitebarL{
+        height: 0;
+        width: 0;
+    }
+
+    .sidebarR{
+        position: absolute;
+        top: 47.5%;
+        left: 82.5%;
+        height: 25%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    
+    .turn90{
+        margin-left: 0vw;
+    }
+}
+
+/* For surface pro 7  */
+@media screen and (max-width:913px) and (min-width:431px){
+    .containerL{
+        height: 0 ;
+        width: 0 ;    
+    }
+    .Girl{
+        height: 0 ;
+        width: 0 ;
+    }
+    .sidebarL{
+        height: 0 ;
+        width: 0 ;
+    }
+    .containerR{
+        height: 80vh;
+        width: 80%;
+        left: -2vw;
+        top: 2vh;
+    }
+
+    .sidebarR{
+        left: -3vw;
+        width: 7vw;
+    }
+    
+}

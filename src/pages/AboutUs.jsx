@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import styles from "../styles/AboutUs.module.css";
-import logo from "../../public/mlsclogo.png";
-import first_prize from "../../public/AboutUs/images/first_prize.png";
-import second_prize from "../../public/AboutUs/images/second_prize.png";
-import third_prize from "../../public/AboutUs/images/third_prize.png";
+import logo from "/mlsclogo.png";
+import first_prize from "/AboutUs/images/first_prize.png";
+import second_prize from "/AboutUs/images/second_prize.png";
+import third_prize from "/AboutUs/images/third_prize.png";
 
 
 
@@ -23,27 +23,27 @@ const BurgerAndNavPortion = () => {
         id="extension"
       >
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/">
             Home
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/aboutus">
             About
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/tracks">
             Tracks
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/timeline">
             Timeline
           </a>
         </div>
         <div className={styles.navLink}>
-          <a className={`${isOpen ? styles.up : ""}`} href="https://www.google.com/">
+          <a className={`${isOpen ? styles.up : ""}`} href="/sponsors">
             Sponsors
           </a>
         </div>
@@ -351,14 +351,14 @@ const Executive = () => {
   const images = [
     {
       id: 1,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "TANMAY MANN",
       role: "GENERAL SECRETARY",
       code: "AGENT MANN"
     },
     {
       id: 2,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "MANKIRAT SINGH",
       role: "TECHNICAL HEAD",
       code: "AGENT SINGH"
@@ -366,28 +366,28 @@ const Executive = () => {
 
     {
       id: 3,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "DEV MEHTA",
       role: "JOINT SECRETARY",
       code: "AGENT MEHTA"
     },
     {
       id: 4,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "Agrim Goyal",
       role: "FINANCE SECRETARY",
       code: "AGENT GOYAL"
     },
     {
       id: 5,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "ANANAY RAMPAL",
       role: "EM & LOGISTICS HEAD",
       code: "AGENT RAMPAL"
     },
     {
       id: 6,
-      src: "../../public/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/tanmay.png",
       name: "Prisha Kandhari",
       role: "JOINT SECRETARY",
       code: "AGENT KANDHARI"
@@ -542,155 +542,155 @@ const MLSCCarousel = () => {
         <div className={styles.carouselLabel}>MADE WITH ❤️ BY MLSC</div>
         <div className={styles.carouselSlide + (animationState === "paused" ? " " + styles.carouselSlidePaused : "")} onClick={()=>{setAnimationState(animationState === "playing" ? "paused" : "playing"); console.log("works")}}>
           <img
-            src="../../public/AboutUs/carouselImages/member1.png"
+            src="/AboutUs/carouselImages/member1.png"
             alt="Member 1"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member2.png"
+            src="/AboutUs/carouselImages/member2.png"
             alt="Member 2"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member3.png"
+            src="/AboutUs/carouselImages/member3.png"
             alt="Member 3"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member4.png"
+            src="/AboutUs/carouselImages/member4.png"
             alt="Member 4"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member5.png"
+            src="/AboutUs/carouselImages/member5.png"
             alt="Member 5"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member6.png"
+            src="/AboutUs/carouselImages/member6.png"
             alt="Member 6"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member7.png"
+            src="/AboutUs/carouselImages/member7.png"
             alt="Member 7"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member8.png"
+            src="/AboutUs/carouselImages/member8.png"
             alt="Member 8"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member9.png"
+            src="/AboutUs/carouselImages/member9.png"
             alt="Member 9"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member10.png"
+            src="/AboutUs/carouselImages/member10.png"
             alt="Member 10"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member11.png"
+            src="/AboutUs/carouselImages/member11.png"
             alt="Member 11"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member12.png"
+            src="/AboutUs/carouselImages/member12.png"
             alt="Member 12"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member13.png"
+            src="/AboutUs/carouselImages/member13.png"
             alt="Member 13"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member14.png"
+            src="/AboutUs/carouselImages/member14.png"
             alt="Member 14"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member15.png"
+            src="/AboutUs/carouselImages/member15.png"
             alt="Member 15"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member16.png"
+            src="/AboutUs/carouselImages/member16.png"
             alt="Member 16"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member17.png"
+            src="/AboutUs/carouselImages/member17.png"
             alt="Member 17"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member18.png"
+            src="/AboutUs/carouselImages/member18.png"
             alt="Member 18"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member19.png"
+            src="/AboutUs/carouselImages/member19.png"
             alt="Member 19"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member1.png"
+            src="/AboutUs/carouselImages/member1.png"
             alt="Member 1 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member2.png"
+            src="/AboutUs/carouselImages/member2.png"
             alt="Member 2 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member3.png"
+            src="/AboutUs/carouselImages/member3.png"
             alt="Member 3 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member4.png"
+            src="/AboutUs/carouselImages/member4.png"
             alt="Member 4 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member5.png"
+            src="/AboutUs/carouselImages/member5.png"
             alt="Member 5 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member6.png"
+            src="/AboutUs/carouselImages/member6.png"
             alt="Member 6 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member7.png"
+            src="/AboutUs/carouselImages/member7.png"
             alt="Member 7 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member8.png"
+            src="/AboutUs/carouselImages/member8.png"
             alt="Member 8 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member9.png"
+            src="/AboutUs/carouselImages/member9.png"
             alt="Member 9 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member10.png"
+            src="/AboutUs/carouselImages/member10.png"
             alt="Member 10 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member11.png"
+            src="/AboutUs/carouselImages/member11.png"
             alt="Member 11 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member12.png"
+            src="/AboutUs/carouselImages/member12.png"
             alt="Member 12 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member13.png"
+            src="/AboutUs/carouselImages/member13.png"
             alt="Member 13 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member14.png"
+            src="/AboutUs/carouselImages/member14.png"
             alt="Member 14 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member15.png"
+            src="/AboutUs/carouselImages/member15.png"
             alt="Member 15 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member16.png"
+            src="/AboutUs/carouselImages/member16.png"
             alt="Member 16 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member17.png"
+            src="/AboutUs/carouselImages/member17.png"
             alt="Member 17 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member18.png"
+            src="/AboutUs/carouselImages/member18.png"
             alt="Member 18 Duplicate"
           />
           <img
-            src="../../public/AboutUs/carouselImages/member19.png"
+            src="/AboutUs/carouselImages/member19.png"
             alt="Member 19 Duplicate"
           />
         </div>
