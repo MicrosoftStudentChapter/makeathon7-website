@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Sponsors.module.css';
 import PagesT from '../components/SponsorsPageInside/FullExport/PagesT.jsx';
+import PagesT1 from '../components/SponsorsPageInside/FullExport/PagesT1.jsx'; // <-- New Import
 import PagesP from '../components/SponsorsPageInside/FullExport/PagesP.jsx';
 import PagesA from '../components/SponsorsPageInside/FullExport/PagesA.jsx';
 import ClosedFile from '../components/SponsorsPageInside/ClosedFiles/ClosedFile.jsx';
 import Whysus from '../components/SponsorsPageInside/Sus/WhySus.jsx';
-// import Image from '/Sponsors/Girl.png';
 
 const Sponsors = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,30 +22,23 @@ const Sponsors = () => {
   }, []);
 
   let content;
-  if (scrollPosition > 600) 
-    {
-    content = <Whysus />
-    } 
-  else if (scrollPosition > 450) 
-    {
-    content = <PagesA />
-    } 
-  else if (scrollPosition > 300) 
-    {
-    content = <PagesP />
-    } 
-  else if (scrollPosition > 150) 
-    {
-    content = <PagesT />
-    } 
-  else 
-    {
-      content = <ClosedFile />
-    }
+  if (scrollPosition > 850) {
+    content = <Whysus />;
+  } else if (scrollPosition > 700) {
+    content = <PagesA />;
+  } else if (scrollPosition > 550) {
+    content = <PagesP />;
+  } else if (scrollPosition > 400) {
+    content = <PagesT1 />;
+  } else if (scrollPosition > 150) {
+    content = <PagesT />;
+  } else {
+    content = <ClosedFile />;
+  }
 
   return (
     <>
-      <div className={`${styles.wrapper} ${scrollPosition > 150 ? styles.scrolled : ''} ${scrollPosition>600 ? styles.wrapperWSUS: ''}`}>
+      <div className={`${styles.wrapper} ${scrollPosition > 150 ? styles.scrolled : ''} ${scrollPosition > 850 ? styles.wrapperWSUS : ''}`}>
         <div className={styles.container}>  
           <div className={styles.AbsoluteFixed}>
             <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />

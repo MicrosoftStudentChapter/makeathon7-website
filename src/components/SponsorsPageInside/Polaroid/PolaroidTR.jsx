@@ -4,22 +4,22 @@ import React from 'react';
  const SmallBox = () => {
    return (
      <div className={styles.polaroid}>
-       {/* <div className={styles.blackBox}>
+      <div className={styles.blackBox}>
          <img
            className={styles.image}
-           src="/Sponsors/Devfolio_Logo-Colored.png" // Use the relative path from the  directory
-           alt="Devfolio"
+           src="/Sponsors/ethindia-dark.png" // Use the relative path from the  directory
+           alt="ETH India"
          />
        </div>
-       <div className={styles.caption}>Devfolio</div> */}
+       <div className={styles.caption}>ETH India</div>
        
-       <div className={styles.blackBox}>
+       {/*<div className={styles.blackBox}>
          <img
            className={styles.image}
            src="/Sponsors/ethindia-light.png" // Use the relative path from the  directory
            alt="Ethidia"
          />
-       </div>
+       </div>*/}
      </div>
    );
  };

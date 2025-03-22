@@ -7,10 +7,12 @@ const SmallBox = () => {
       <div className={styles.blackBox}>
         <img
           className={styles.image}
-          src="/Sponsors/facebook.png" // Use the relative path from the public directory
+          src="public\Sponsors\Devfolio_Logo-Colored.png" // Use the relative path from the public directory
           alt="Facebook"
         />
       </div>
+      <div className={styles.caption}>Devfolio</div>
+
     </div>
   );
 };

@@ -3,85 +3,92 @@
   flex-direction: column;
   justify-content: flex-start; 
   align-items: center;
-  width: 25%;
-  height: 30%;
+  width: 7.5vw;
+  height: 10.5vw;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 5px 3.33px 3.33px 3.33px; 
+  margin: 1rem;
+  padding: 0.8rem 0.8rem 2.4rem 0.8rem; 
+  padding: 0.5rem; 
+  font-family: 'Lemon Milk', Arial, sans-serif; 
 }
 
 .blackBox {
   width: 100%;
-  height: 85%; /* Cover 3/4th of the white box */
-  background-color: black;
+  height: 75%;
+  background-color: #F5F5DC;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0; /* Remove bottom margin */
+  margin-bottom: 0; 
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .image {
-  width: 90%; /* Make the image smaller */
-  height: 85%;
-  object-fit: cover;
+  width: 95%; 
+  height: 100%;
+  object-fit: contain;
 }
 
 .caption {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 25%; /* Fill the remaining white space */
+  align-items: center; 
+  height: 10%; 
   font-size: 16px;
   text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 1rem; 
+  padding: 0;  
 }
 
-@media screen and (max-width:431px) {
-    .polaroid {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start; 
-      align-items: center;
-      width: 25%;
-      height: 30%;
-      background-color: white;
-      border: 1px solid #ccc;
-      box-shadow: 0 1.33px 2.67px rgba(0, 0, 0, 0.1);
-      margin: 7.5px;
-      padding: 5px 3.33px 3.33px 3.33px; 
-    }
-  
-    .blackBox {
-      width: 100%;
-    height: 85%; /* Cover 3/4th of the white box */
-    background-color: black;
+@media screen and (max-width: 431px) {
+  .polaroid {
+    width: 19vw; 
+    height: 13vh; 
+    margin: 0.3rem; 
+    margin-top: 0.8rem; 
+    padding: 0.5rem;
+  }
+
+  .blackBox {
+    width: 100%;
+    height: 70%;
+    background-color: #F5F5DC;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0; /* Remove bottom margin */
   }
 
   .image {
-    width: 90%; /* Make the image smaller */
-    height: 85%;
-    object-fit: cover;
+    width: 90%; 
+    height: 90%; 
+    object-fit: contain; 
   }
 
   .caption {
+    font-size: 2.8vw;
+    height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25%; /* Fill the remaining white space */
-    font-size: 16px;
     text-align: center;
+    font-weight: bold;
   }
 }
 /* For surface pro 7  */
 @media screen and (max-width:913px) and (min-width:431px){
   .polaroid{
-    width: 16vw;
-    margin-top: 5vh;
+    width: 17.5vw;
+    height: 17vh;
+    margin-top: 1rem;
+  }
+  .caption {
+    font-size: 2.5vw;
+    height: 12.5%;
   }
   
 }
