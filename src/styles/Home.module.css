@@ -54,6 +54,67 @@
   }
 }
 
+.logo {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* Default sizes */
+.logoTopLeft {
+  top: 2.5%;
+  left: 5%;
+  height: 12%;
+}
+
+.logoTopRight {
+  top: 2.5%;
+  right: 10%;
+  height: 12%;
+}
+
+.logoCenter {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 25%;
+}
+
+/* Medium screens */
+@media screen and (max-width: 768px) {
+  .logoTopLeft {
+    top: 1%;
+    left: 2%;
+    height: 10%;
+  }
+
+  .logoTopRight {
+    top: 1%;
+    right: 12%;
+    height: 10%;
+  }
+
+  .logoCenter {
+    top: 10%;
+    height: 20%;
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 480px) {
+  .logoTopLeft{
+    height: 8%;
+  }
+  .logoTopRight {
+    height: 8%;
+    right: 18%;
+  }
+
+  .logoCenter {
+    top: 15%;
+    height: 18%;
+  }
+}
+
+
 .mlsc_logo {
   position: fixed;
   top: 0;

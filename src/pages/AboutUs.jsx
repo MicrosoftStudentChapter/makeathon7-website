@@ -4,6 +4,7 @@ import logo from "/mlsclogo.png";
 import first_prize from "/AboutUs/images/first_prize.png";
 import second_prize from "/AboutUs/images/second_prize.png";
 import third_prize from "/AboutUs/images/third_prize.png";
+
 import Footer from "../components/Footer/Footer";
 
 // const BurgerAndNavPortion = () => {

@@ -14,6 +14,7 @@
 }
   
 .bar {
+
     width: 30px;
     height: 3px;
     background-color: rgb(142, 142, 142);
@@ -82,6 +83,7 @@
     color: white;
     font-weight: bold;
     transition: color 0.3s;
+
 }
   
 .menuList a:hover {
@@ -118,6 +120,7 @@
 }
   
 @keyframes blurFadeOut {
+
     from {
       backdrop-filter: blur(10px);
       background: rgba(0, 0, 0, 0.4);
@@ -140,6 +143,7 @@
 }
   
 @keyframes fadeTextOut {
+
     from {
       opacity: 1;
       transform: translateY(0);

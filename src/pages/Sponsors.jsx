@@ -63,6 +63,13 @@ const Sponsors = () => {
                 <ChevronDown size={32} color="#fff" />
               </motion.div>
             )}
+      } ${scrollPosition > 600 ? styles.wrapperWSUS : ""}`}
+    >
+      <div className={styles.container}>
+        <div className={styles.AbsoluteFixed}>
+          <img className={styles.logo} src="/mlsclogo.png" alt="MLSC Logo" />
+          {/* <img className={styles.menu} src="/Sponsors/menu.png" alt="Menu" /> */}
+          <img className={styles.AnyaF} src="/Sponsors/AnyaF.png" alt="Shh" />
 
             <AnimatePresence mode="wait">
               <motion.div
