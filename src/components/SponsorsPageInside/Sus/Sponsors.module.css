@@ -14,6 +14,7 @@
   justify-content: center;
   font-size: 4rem;
   font-family: "Poppins";
+  
 }
 
 .SponsorHeadings {
@@ -23,28 +24,30 @@
 }
 
 ul {
-  padding: 2% 5%;
+  margin-top: 3vh;
   list-style-type: none;
+  padding-bottom: 20vh;
 }
 
-li {
-  padding: 1vw;
-}
+
 
 li p {
   font-size: 1.2rem;
   font-family: "Poppins";
+  margin-left: 2vw;
 }
 
 .Girl{
   position: fixed;  
   bottom: -4vw; 
-  left: -1vw;
+  left: -3vw;
   width: 70vh; 
   height: auto;
+  z-index: -1;
+  top: 8vh;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:431px) {
   
   .Girl{
     height: 0;
@@ -63,7 +66,36 @@ li p {
   }
 
 }
+/* For Samsung Galaxy 8  */
+@media screen and (max-width:500px) and (min-width:300px){
+  .Girl{
+    visibility: hidden;
+  }
+  .SponsorText{
+    font-size: 11px;
+    margin-right: 3vw;
+    margin-top: .5vh;
+  }
+  .SponsorTitle{
+    margin-top: 4vh;
+  }
+}
 
+
+
+/* For sipad mini */
+@media screen and (max-width:1200px) and (min-width:500px){
+  .Girl{
+    visibility: hidden;
+  }
+  .SponsorText{
+    font-size: 25px;
+    margin-top: 3vh;
+  }
+  .SponsorTitle{
+    margin-top: 4vh;
+  }
+}
 /* For surface pro 7  */
 @media screen and (max-width:913px) and (min-width:431px){
   .Girl{

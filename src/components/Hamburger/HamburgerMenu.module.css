@@ -6,16 +6,49 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    cursor: pointer;
-  }
+    cursor: url('/the-green-spades-hand.png'), pointer;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    padding: 5px;
+}
   
-  .bar {
+.bar {
+
     width: 30px;
     height: 3px;
     background-color: rgb(142, 142, 142);
     transition: 0.4s;
-  }
-  .menuOverlay {
+    position: absolute;
+}
+
+.bar:nth-child(1) {
+    transform: translateY(-8px);
+}
+
+.bar:nth-child(2) {
+    transform: translateY(0);
+}
+
+.bar:nth-child(3) {
+    transform: translateY(8px);
+}
+
+.active .bar:nth-child(1) {
+    transform: rotate(45deg);
+    background-color: #a5670b;
+}
+
+.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.active .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    background-color: #a5670b;
+}
+
+.menuOverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -29,52 +62,53 @@
     align-items: center;
     justify-content: center;
     animation: blurFadeIn 0.6s forwards;
-  }
+}
   
-  .menuList {
+.menuList {
     list-style: none;
     text-align: center;
     padding: 0;
     opacity: 0;
     animation: fadeTextIn 0.6s ease forwards;
     animation-delay: 0.6s; /* wait until blur ends */
-  }
+}
   
-  .menuList li {
-    margin: 1rem 0;
-  }
+.menuList li {
+    margin: 3rem 0;
+}
   
-  .menuList a {
+.menuList a {
     text-decoration: none;
     font-size: 2rem;
     color: white;
     font-weight: bold;
     transition: color 0.3s;
-  }
+
+}
   
-  .menuList a:hover {
+.menuList a:hover {
     color: #a5670b;
-    cursor: pointer;
-  }
+    cursor: url('/the-green-spades-hand.png'), pointer;
+}
   
-  .fadeIn {
+.fadeIn {
     animation: blurFadeIn 0.6s forwards;
-  }
+}
   
-  .fadeOut {
+.fadeOut {
     animation: blurFadeOut 0.6s forwards;
-  }
+}
   
-  .fadeTextIn {
+.fadeTextIn {
     animation: fadeTextIn 0.6s ease forwards;
     animation-delay: 0.6s;
-  }
+}
   
-  .fadeTextOut {
+.fadeTextOut {
     animation: fadeTextOut 0.4s ease forwards;
-  }
+}
   
-  @keyframes blurFadeIn {
+@keyframes blurFadeIn {
     from {
       backdrop-filter: blur(0px);
       background: rgba(0, 0, 0, 0);
@@ -83,9 +117,10 @@
       backdrop-filter: blur(10px);
       background: rgba(0, 0, 0, 0.4);
     }
-  }
+}
   
-  @keyframes blurFadeOut {
+@keyframes blurFadeOut {
+
     from {
       backdrop-filter: blur(10px);
       background: rgba(0, 0, 0, 0.4);
@@ -94,9 +129,9 @@
       backdrop-filter: blur(0px);
       background: rgba(0, 0, 0, 0);
     }
-  }
+}
   
-  @keyframes fadeTextIn {
+@keyframes fadeTextIn {
     from {
       opacity: 0;
       transform: translateY(20px);
@@ -105,9 +140,10 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
+}
   
-  @keyframes fadeTextOut {
+@keyframes fadeTextOut {
+
     from {
       opacity: 1;
       transform: translateY(0);
@@ -116,6 +152,5 @@
       opacity: 0;
       transform: translateY(20px);
     }
-  }
-  
-  
+}
+

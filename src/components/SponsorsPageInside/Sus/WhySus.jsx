@@ -9,7 +9,6 @@ const Whysus = () => {
 
 
         <ul>
-          <li></li>
           <li><p className={styles.SponsorText}>
             <strong className={styles.SponsorHeadings}>Youth Hub: <br /></strong> The Youth Hub Of The Organization Is A Huge Reach, As It Has A Large Student Population Of 10000+ People On Campus.
           </p></li>

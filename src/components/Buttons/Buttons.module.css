@@ -7,7 +7,7 @@
   outline-offset: -3px;
   border-radius: 5px;
   border: none;
-  cursor: pointer;
+  cursor: url('/the-green-spades-hand.png'), pointer;
   transition: all 0.6s ease;
   color: white;
 }

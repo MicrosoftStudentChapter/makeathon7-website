@@ -16,6 +16,7 @@ import chip from '../components/images/chip.png';
 import spades from '../components/images/spades.png';
 import diamonds1 from '../components/images/diamonds 1.png';
 import diamonds2 from '../components/images/diamonds 2.png';
+import Footer from "../components/Footer/Footer.jsx"
 
 
 
@@ -57,7 +58,8 @@ const BiggerViewPort = () => {
       <div className={styles.diamonds2} id="spiral3">
         <img src={diamonds2} alt="diamonds2"></img>
       </div>
-      <img className={styles.MLSCLogoBigger} src={logo} alt="MLSC Logo" />
+      <a href="https://makeathon7.mlsctiet.com" rel="noopener noreferrer">
+      <img className={styles.MLSCLogoBigger} src={logo} alt="MLSC Logo" /> </a>
       {selectedEvent && (
         <div className={`${styles.eventcard} ${selectedEvent ? styles.show : ''}`} ref={cardRef}>
           <Eventcard name={selectedEvent} />
@@ -302,13 +304,26 @@ const SmallerViewPort = () => {
 
 const Timeline = () => {
   return (
-    <>
-      <BiggerViewPort />
-      <BurgerAndNavPortion />
-      <SmallerViewPort />
-    </>
-  )
-}
+    <div style={{
+      display: "flex",
+      flexDirection: "column",
+      minHeight: "100vh",
+    }}>
+      <div style={{ 
+        flexGrow: 1,
+        marginBottom: "20px" // Add space between content and footer
+      }}>
+        <BiggerViewPort />
+        <BurgerAndNavPortion />
+        <SmallerViewPort />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-export default Timeline;
+
+
+export default Timeline
+
 

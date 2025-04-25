@@ -136,7 +136,7 @@
         border-radius: 1.5vh;
         height: 80vh;
         width: 80%;
-        left: 11vw;
+        left: 9vw;
         top: 14vh;
     
     }
@@ -188,3 +188,137 @@
         top: 10px;
     }
 }
+
+/* For sipad mini */
+@media screen and (max-width:1200px) and (min-width:500px){
+   .basefile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 9vw;
+        margin: 0.25vw;
+        height: 81.5vh;
+        width: 78vw;
+        background-color: rgb(224, 200, 169);
+        background-position: center;
+        position: relative;
+        border-radius: 0.5vh;
+        left: 4%;
+   }
+   .secret{
+    position: absolute;
+    top: -2vh;
+    left: 45vw;
+   }
+   .sp{
+    top: 30vh;
+   }
+   .special{
+    top: 40vh;
+   }
+   .spy{
+    position: absolute;
+    left: 56px;
+    top: 54vh;
+    height: 15vh;
+    width: 15vh;
+   }
+   .codebox{
+    left: 77vw;
+   }
+   .txt{
+    position: absolute;
+    width: 47vw;
+    top: 58vh;
+    left: 282px;
+   }
+   
+  }
+/* For nest hub  */
+@media screen and (max-width:1300px) and (min-width:1024px){
+    .basefile{
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 1vw;
+                margin: 0.25vw;
+                height: 81.5vh;
+                width: 62vw;
+                background-color: rgb(224, 200, 169);
+                background-position: center;
+                position: relative;
+                border-radius: 0.5vh;
+                left: 38%;
+    }
+    .sp{
+        height: 5vh;
+        width: 48vh;
+    }
+    .secret{
+        height: 30vh;
+        width: 30vh;
+    }
+    .txt{
+        position: absolute;
+        width: 38vw;
+        top: 58vh;
+        left: 216px;
+    }
+    .spy{
+        position: absolute;
+        left: 56px;
+        top: 56vh;
+        height: 20vh;
+        width: 20vh;
+    }
+    .codebox{
+        left: 61vw;
+        top: 42vh;
+    }
+  }
+@media screen and (max-width:1300px) and (min-width:1200px){
+    .basefile{
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 1vw;
+                margin: 0.25vw;
+                height: 81.5vh;
+                width: 62vw;
+                background-color: rgb(224, 200, 169);
+                background-position: center;
+                position: relative;
+                border-radius: 0.5vh;
+                left: 38%;
+    }
+    .sp{
+        height: 5vh;
+        width: 48vh;
+        top: 30vh;
+    }
+    .special{
+        top: 39vh;
+    }
+    .secret{
+        height: 30vh;
+        width: 30vh;
+        left: 43vw;
+    }
+    .txt{
+        position: absolute;
+        width: 38vw;
+        top: 58vh;
+        left: 216px;
+    }
+    .spy{
+        position: absolute;
+        left: 41px;
+        top: 54vh;
+        height: 20vh;
+        width: 20vh;
+    }
+    .codebox{
+        left: 61vw;
+        top: 42vh;
+    }
+  }

@@ -5,9 +5,7 @@ import first_prize from "/AboutUs/images/first_prize.png";
 import second_prize from "/AboutUs/images/second_prize.png";
 import third_prize from "/AboutUs/images/third_prize.png";
 
-
-
-
+import Footer from "../components/Footer/Footer";
 
 // const BurgerAndNavPortion = () => {
 //   const [isOpen, setIsOpen] = useState(false);
@@ -84,17 +82,15 @@ import third_prize from "/AboutUs/images/third_prize.png";
 //   );
 // };
 
-
-
-
-
 function HeaderPortion() {
   return (
     <>
       <div className={styles.container}>
         {/* Left Side */}
         <div className={styles.leftSide}>
-          <img src={logo} alt="MLSC Logo" className={styles.mlscLogo}/>
+          <a href="https://makeathon7.mlsctiet.com" rel="noopener noreferrer">
+          <img src={logo} alt="MLSC Logo" className={styles.mlscLogo} />
+          </a>
         </div>
 
         {/* Header Section */}
@@ -123,17 +119,26 @@ function HeaderPortion() {
   );
 }
 
-
-
-
-
 function PrizeContainer({ img, alt, imgClass, text, prize }) {
   const [showingSide, setShowingSide] = useState("front");
-  let frontImageClass = imgClass + (showingSide === "back" ? " " + styles.onClickFrontImage : "");
-  let backImageClass = imgClass + (showingSide === "back" ? " " + styles.onClickBackImage : "");
+  let frontImageClass =
+    imgClass + (showingSide === "back" ? " " + styles.onClickFrontImage : "");
+  let backImageClass =
+    imgClass + (showingSide === "back" ? " " + styles.onClickBackImage : "");
   return (
-    <span className={styles.prizeContainerParent} onClick={()=>{setShowingSide(showingSide === "front" ? "back" : "front"); console.log("works")}}>
-      <span className={styles.prizeContainer + (showingSide === "back" ? " " + styles.prizeContainerBack : "")}>
+    <span
+      className={styles.prizeContainerParent}
+      onClick={() => {
+        setShowingSide(showingSide === "front" ? "back" : "front");
+        console.log("works");
+      }}
+    >
+      <span
+        className={
+          styles.prizeContainer +
+          (showingSide === "back" ? " " + styles.prizeContainerBack : "")
+        }
+      >
         <img src={img} alt={alt} className={frontImageClass} />
         <span className={styles.prizeShow}>
           <h3 className={styles.prizeTextHeading}>{text}</h3>
@@ -148,10 +153,6 @@ function PrizeContainer({ img, alt, imgClass, text, prize }) {
     </span>
   );
 }
-
-
-
-
 
 function RewardsSection() {
   return (
@@ -185,10 +186,6 @@ function RewardsSection() {
     </>
   );
 }
-
-
-
-
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -305,11 +302,6 @@ const Faq = () => {
   );
 };
 
-
-
-
-
-
 const FaqItem = ({ question, answer, isOpen, onClick }) => {
   return (
     <div
@@ -336,64 +328,89 @@ const FaqItem = ({ question, answer, isOpen, onClick }) => {
   );
 };
 
-
-
-
-
-
-
 const Executive = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [direction, setDirection] = useState('next');
+  const [direction, setDirection] = useState("next");
   const [isPaused, setIsPaused] = useState(false);
-  
+
   const images = [
     {
       id: 1,
       src: "/AboutUs/EBImages/tanmay.png",
       name: "TANMAY MANN",
       role: "GENERAL SECRETARY",
-      code: "AGENT MANN"
+      code: "AGENT MANN",
     },
     {
       id: 2,
-      src: "/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/mankirat.png",
       name: "MANKIRAT SINGH",
       role: "TECHNICAL HEAD",
-      code: "AGENT SINGH"
+      code: "AGENT SINGH",
     },
 
     {
       id: 3,
-      src: "/AboutUs/EBImages/tanmay.png",
-      name: "DEV MEHTA",
-      role: "JOINT SECRETARY",
-      code: "AGENT MEHTA"
+      src: "/AboutUs/EBImages/vanika.png",
+      name: "VANIKA SAHNI",
+      role: "CONTENT HEAD",
+      code: "AGENT SAHNI",
     },
     {
       id: 4,
-      src: "/AboutUs/EBImages/tanmay.png",
-      name: "Agrim Goyal",
+      src: "/AboutUs/EBImages/agrim.png",
+      name: "AGRIM GOYAL",
       role: "FINANCE SECRETARY",
-      code: "AGENT GOYAL"
+      code: "AGENT GOYAL",
     },
     {
       id: 5,
-      src: "/AboutUs/EBImages/tanmay.png",
+      src: "/AboutUs/EBImages/ananay.png",
       name: "ANANAY RAMPAL",
       role: "EM & LOGISTICS HEAD",
-      code: "AGENT RAMPAL"
+      code: "AGENT RAMPAL",
     },
     {
       id: 6,
-      src: "/AboutUs/EBImages/tanmay.png",
-      name: "Prisha Kandhari",
+      src: "/AboutUs/EBImages/prisha.png",
+      name: "PRISHA KANDHARI",
       role: "JOINT SECRETARY",
-      code: "AGENT KANDHARI"
+      code: "AGENT KANDHARI",
     },
+
+    {
+      id: 7,
+      src: "/AboutUs/EBImages/preksha.png",
+      name: "PREKSHA JAIN",
+      role: "JOINT SECRETARY",
+      code: "AGENT JAIN",
+    },
+
+    {
+      id: 8,
+      src: "/AboutUs/EBImages/palakpreet.png",
+      name: "PALAKPREET KAUR",
+      role: "MARKETING HEAD",
+      code: "AGENT KAUR",
+    },
+
+    {
+      id: 9,
+      src: "/AboutUs/EBImages/navdeep.png",
+      name: "NAVDEEP SINGH SIDHU",
+      role: "TECHNICAL HEAD",
+      code: "AGENT SIDHU",
+    },
+    {
+      id: 10,
+      src: "/AboutUs/EBImages/krishnam.png",
+      name: "KRISHNAM AGGARWAL",
+      role: "DESIGNING HEAD",
+      code: "AGENT AGGARWAL",
+    }
   ];
-  
+
   useEffect(() => {
     if (isPaused) return;
 
@@ -408,57 +425,78 @@ const Executive = () => {
 
   const nextSlide = () => {
     setIsAnimating(true);
-    setDirection('next');
+    setDirection("next");
 
-
-  setTimeout(() =>  { 
-    setCurrentIndex(oldIndex => {
-       let newIndex;
-       if (oldIndex === images.length - 1) {
-       newIndex = 0;
-       } else {
-        newIndex = oldIndex + 1;
-      }
-      return newIndex;
-    });
-    setIsAnimating(false);
+    setTimeout(() => {
+      setCurrentIndex((oldIndex) => {
+        let newIndex;
+        if (oldIndex === images.length - 1) {
+          newIndex = 0;
+        } else {
+          newIndex = oldIndex + 1;
+        }
+        return newIndex;
+      });
+      setIsAnimating(false);
     }, 600);
   };
 
   return (
-
-  <div className={styles.carouselContainer}>
-
-      <h2 className={styles.carouselTitle}>
-        EXECUTIVE BOARD
-      </h2>
+    <div className={styles.carouselContainer}>
+      <h2 className={styles.carouselTitle}>EXECUTIVE BOARD</h2>
       <div className={styles.carouselWrapper}>
-
-
         <div className={styles.slidesContainer}>
           {/* Previous Image (Angled) */}
-          <div className={`${styles.slide} ${styles.prevSlide} ${isAnimating && direction === 'prev' ? styles.movePrevToCenter : ''}`}
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
+          <div
+            className={`${styles.slide} ${styles.prevSlide} ${
+              isAnimating && direction === "prev" ? styles.movePrevToCenter : ""
+            }`}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
           >
             <div className={styles.imageCard}>
               <img
-                src={images[(currentIndex - 1 + images.length) % images.length].src}
+                src={
+                  images[(currentIndex - 1 + images.length) % images.length].src
+                }
                 alt="Previous board member"
               />
               <div className={styles.cardInfo}>
-                <h2>{images[(currentIndex - 1 + images.length) % images.length].name}</h2>
+                <h2>
+                  {
+                    images[(currentIndex - 1 + images.length) % images.length]
+                      .name
+                  }
+                </h2>
                 <div className={styles.line}></div>
-                <p>{images[(currentIndex - 1 + images.length) % images.length].role}</p>
-                <p className={styles.agentCode}>{images[(currentIndex - 1 + images.length) % images.length].code}</p>
+                <p>
+                  {
+                    images[(currentIndex - 1 + images.length) % images.length]
+                      .role
+                  }
+                </p>
+                <p className={styles.agentCode}>
+                  {
+                    images[(currentIndex - 1 + images.length) % images.length]
+                      .code
+                  }
+                </p>
               </div>
             </div>
           </div>
 
           {/* Current Image (Center)*/}
-          <div className={`${styles.slide} ${styles.currentSlide} ${isAnimating ? (direction === 'next' ? styles.moveCurrentToLeft : styles.moveCurrentToRight) : ''}`}
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}>
+          <div
+            className={`${styles.slide} ${styles.currentSlide} ${
+              isAnimating
+                ? direction === "next"
+                  ? styles.moveCurrentToLeft
+                  : styles.moveCurrentToRight
+                : ""
+            }`}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
             <div className={styles.imageCard}>
               <img
                 src={images[currentIndex].src}
@@ -474,65 +512,94 @@ const Executive = () => {
           </div>
 
           {/* Next Image (Angled) */}
-          <div className={`${styles.slide} ${styles.nextSlide} ${isAnimating && direction === 'next' ? styles.moveNextToCenter : ''}`}
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}> 
+          <div
+            className={`${styles.slide} ${styles.nextSlide} ${
+              isAnimating && direction === "next" ? styles.moveNextToCenter : ""
+            }`}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
             <div className={styles.imageCard}>
               <img
                 src={images[(currentIndex + 1) % images.length].src}
                 alt="Next board member"
               />
               <div className={styles.cardInfo}>
-              <h2>{images[(currentIndex + 1) % images.length].name}</h2>
-              <div className={styles.line}></div>
-              <p>{images[(currentIndex + 1) % images.length].role}</p>
-               <p className={styles.agentCode}>{images[(currentIndex + 1) % images.length].code}</p>                            
-              </div> 
+                <h2>{images[(currentIndex + 1) % images.length].name}</h2>
+                <div className={styles.line}></div>
+                <p>{images[(currentIndex + 1) % images.length].role}</p>
+                <p className={styles.agentCode}>
+                  {images[(currentIndex + 1) % images.length].code}
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-         {/* Next to Next slide */} 
-         <div className={`${styles.slide} ${styles.nextNextSlide} ${isAnimating && direction === 'next' ? styles.move2 : ''}`}> 
-            <div className={styles.imageCard}>
-              <img
-                src={images[(currentIndex + 2) % images.length].src}
-                alt="Next board member"
-              />
-              <div className={styles.cardInfo}>
+        {/* Next to Next slide */}
+        <div
+          className={`${styles.slide} ${styles.nextNextSlide} ${
+            isAnimating && direction === "next" ? styles.move2 : ""
+          }`}
+        >
+          <div className={styles.imageCard}>
+            <img
+              src={images[(currentIndex + 2) % images.length].src}
+              alt="Next board member"
+            />
+            <div className={styles.cardInfo}>
               <h2>{images[(currentIndex + 2) % images.length].name}</h2>
               <div className={styles.line}></div>
-              <p className={styles.job}>{images[(currentIndex + 2) % images.length].role}</p>
-               <p className={styles.agentCode}>{images[(currentIndex + 2) % images.length].code}</p>                            
-              </div> 
+              <p className={styles.job}>
+                {images[(currentIndex + 2) % images.length].role}
+              </p>
+              <p className={styles.agentCode}>
+                {images[(currentIndex + 2) % images.length].code}
+              </p>
             </div>
           </div>
+        </div>
 
-
-         {/* Previous to prev slide */} 
-         <div className={`${styles.slide} ${styles.prevPrevSlide} ${isAnimating && direction === 'prev' ? styles.move3 : ''}`}> 
-            <div className={styles.imageCard}>
-              <img
-                src={images[(currentIndex - 2 + images.length) % images.length].src}
-                alt="Next board member"
-              />
-              <div className={styles.cardInfo}>
-                <h2>{images[(currentIndex - 2 + images.length) % images.length].name}</h2>
-                <div className={styles.line}></div>
-                <p>{images[(currentIndex - 2 + images.length) % images.length].role}</p>
-                <p className={styles.agentCode}>{images[(currentIndex - 2 + images.length) % images.length].code}</p>                            
-              </div> 
+        {/* Previous to prev slide */}
+        <div
+          className={`${styles.slide} ${styles.prevPrevSlide} ${
+            isAnimating && direction === "prev" ? styles.move3 : ""
+          }`}
+        >
+          <div className={styles.imageCard}>
+            <img
+              src={
+                images[(currentIndex - 2 + images.length) % images.length].src
+              }
+              alt="Next board member"
+            />
+            <div className={styles.cardInfo}>
+              <h2>
+                {
+                  images[(currentIndex - 2 + images.length) % images.length]
+                    .name
+                }
+              </h2>
+              <div className={styles.line}></div>
+              <p>
+                {
+                  images[(currentIndex - 2 + images.length) % images.length]
+                    .role
+                }
+              </p>
+              <p className={styles.agentCode}>
+                {
+                  images[(currentIndex - 2 + images.length) % images.length]
+                    .code
+                }
+              </p>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );
 };
-
-
-
-
-
 
 const MLSCCarousel = () => {
   const [animationState, setAnimationState] = useState("playing");
@@ -540,83 +607,39 @@ const MLSCCarousel = () => {
     <div className={styles.footerBody}>
       <div className={styles.carousel}>
         <div className={styles.carouselLabel}>MADE WITH ❤️ BY MLSC</div>
-        <div className={styles.carouselSlide + (animationState === "paused" ? " " + styles.carouselSlidePaused : "")} onClick={()=>{setAnimationState(animationState === "playing" ? "paused" : "playing"); console.log("works")}}>
-          <img
-            src="/AboutUs/carouselImages/member1.png"
-            alt="Member 1"
-          />
-          <img
-            src="/AboutUs/carouselImages/member2.png"
-            alt="Member 2"
-          />
-          <img
-            src="/AboutUs/carouselImages/member3.png"
-            alt="Member 3"
-          />
-          <img
-            src="/AboutUs/carouselImages/member4.png"
-            alt="Member 4"
-          />
-          <img
-            src="/AboutUs/carouselImages/member5.png"
-            alt="Member 5"
-          />
-          <img
-            src="/AboutUs/carouselImages/member6.png"
-            alt="Member 6"
-          />
-          <img
-            src="/AboutUs/carouselImages/member7.png"
-            alt="Member 7"
-          />
-          <img
-            src="/AboutUs/carouselImages/member8.png"
-            alt="Member 8"
-          />
-          <img
-            src="/AboutUs/carouselImages/member9.png"
-            alt="Member 9"
-          />
-          <img
-            src="/AboutUs/carouselImages/member10.png"
-            alt="Member 10"
-          />
-          <img
-            src="/AboutUs/carouselImages/member11.png"
-            alt="Member 11"
-          />
-          <img
-            src="/AboutUs/carouselImages/member12.png"
-            alt="Member 12"
-          />
-          <img
-            src="/AboutUs/carouselImages/member13.png"
-            alt="Member 13"
-          />
-          <img
-            src="/AboutUs/carouselImages/member14.png"
-            alt="Member 14"
-          />
-          <img
-            src="/AboutUs/carouselImages/member15.png"
-            alt="Member 15"
-          />
-          <img
-            src="/AboutUs/carouselImages/member16.png"
-            alt="Member 16"
-          />
-          <img
-            src="/AboutUs/carouselImages/member17.png"
-            alt="Member 17"
-          />
-          <img
-            src="/AboutUs/carouselImages/member18.png"
-            alt="Member 18"
-          />
-          <img
-            src="/AboutUs/carouselImages/member19.png"
-            alt="Member 19"
-          />
+        <div
+          className={
+            styles.carouselSlide +
+            (animationState === "paused"
+              ? " " + styles.carouselSlidePaused
+              : "")
+          }
+          onClick={() => {
+            setAnimationState(
+              animationState === "playing" ? "paused" : "playing"
+            );
+            console.log("works");
+          }}
+        >
+          <img src="/AboutUs/carouselImages/member1.png" alt="Member 1" />
+          <img src="/AboutUs/carouselImages/member2.png" alt="Member 2" />
+          <img src="/AboutUs/carouselImages/member3.png" alt="Member 3" />
+          <img src="/AboutUs/carouselImages/member4.png" alt="Member 4" />
+          <img src="/AboutUs/carouselImages/member5.png" alt="Member 5" />
+          <img src="/AboutUs/carouselImages/member6.png" alt="Member 6" />
+          <img src="/AboutUs/carouselImages/member7.png" alt="Member 7" />
+          <img src="/AboutUs/carouselImages/member8.png" alt="Member 8" />
+          <img src="/AboutUs/carouselImages/member9.png" alt="Member 9" />
+          <img src="/AboutUs/carouselImages/member10.png" alt="Member 10" />
+          <img src="/AboutUs/carouselImages/member11.png" alt="Member 11" />
+          <img src="/AboutUs/carouselImages/member12.png" alt="Member 12" />
+          <img src="/AboutUs/carouselImages/member13.png" alt="Member 13" />
+          <img src="/AboutUs/carouselImages/member14.png" alt="Member 14" />
+          <img src="/AboutUs/carouselImages/member15.png" alt="Member 15" />
+          <img src="/AboutUs/carouselImages/member16.png" alt="Member 16" />
+          <img src="/AboutUs/carouselImages/member17.png" alt="Member 17" />
+          <img src="/AboutUs/carouselImages/member18.png" alt="Member 18" />
+          <img src="/AboutUs/carouselImages/member19.png" alt="Member 19" />
           <img
             src="/AboutUs/carouselImages/member1.png"
             alt="Member 1 Duplicate"
@@ -699,25 +722,26 @@ const MLSCCarousel = () => {
   );
 };
 
-
-
-
-
 const AboutUs = () => {
   return (
-    <>
+    <div className={styles.aboutUsContainer}>
       <div className={styles.backgroundImage} />
       <div className={styles.BlackOverlay} />
-      <div className={styles.xhidden}>
-        {/* <BurgerAndNavPortion /> */}
-        <HeaderPortion />
-        {/* <PrizeContainer /> */}
-        <RewardsSection />
-        <Faq />
-        <Executive />
-        <MLSCCarousel />
+      <div className={styles.contentWrapper}>
+        <div className={styles.xhidden}>
+          {/* <BurgerAndNavPortion /> */}
+          <HeaderPortion />
+          {/* <PrizeContainer /> */}
+          <RewardsSection />
+          <Faq />
+          <Executive />
+          <MLSCCarousel />
+        </div>
+        <div className={styles.footerWrapper}>
+          <Footer />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

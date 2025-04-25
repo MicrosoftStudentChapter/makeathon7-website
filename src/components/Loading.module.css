@@ -1,0 +1,173 @@
+/* Loading.css */
+.loadingContainer {
+  background-color: #1a1a1a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingBullet {
+  position: absolute;
+  left: 40%;
+  bottom: 55%;
+  animation: moveBullet 1s infinite linear;
+}
+
+.loadingBullet img {
+  width: 50px;
+  height: auto;
+  transform: scale(1.5);
+}
+
+.loadingGun {
+  position: absolute;
+  right: 60%;
+  bottom: 45%;
+  transform: translateY(50%);
+}
+
+.loadingGun img {
+  width: 200px;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+}
+
+.text h1 {
+  color: #c4a747;
+  font-family: "Courier New", monospace;
+  font-size: 2.5rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  animation: pulse 1s infinite;
+  text-shadow: 0 0 10px rgba(196, 167, 71, 0.5);
+  margin: 0;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+    text-shadow: 0 0 5px rgba(196, 167, 71, 0.3);
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(196, 167, 71, 0.8),
+      0 0 30px rgba(196, 167, 71, 0.4);
+    transform: scale(1.02);
+    color: #ffcb57;
+  }
+  100% {
+    opacity: 0.4;
+    text-shadow: 0 0 5px rgba(196, 167, 71, 0.3);
+    transform: scale(0.98);
+  }
+}
+
+@keyframes moveBullet {
+  0% {
+    left: 40%;
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    left: 65%;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loadingGun {
+    right: 60%;
+    bottom: 48%;
+  }
+
+  .loadingGun img {
+    width: 150px;
+  }
+
+  .loadingBullet {
+    animation: moveBullet 1s infinite linear;
+  }
+
+  .text h1 {
+    font-size: 1.8rem;
+    letter-spacing: 6px;
+  }
+  .text {
+    bottom: 30%;
+  }
+
+  @keyframes moveBullet {
+    0% {
+      left: 40%;
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      left: 65%;
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .loadingGun {
+    right: 55%;
+    bottom: 50%;
+  }
+
+  .loadingGun img {
+    width: 100px;
+  }
+  .loadingBullet {
+    animation: moveBullet 1s infinite linear;
+  }
+
+  .loadingBullet img {
+    transform: scale(0.8);
+  }
+
+  .text {
+    bottom: 30%;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+    letter-spacing: 4px;
+  }
+  @keyframes moveBullet {
+    0% {
+      left: 40%;
+      opacity: 1;
+    }
+    90% {
+      opacity: 0.5;
+    }
+    100% {
+      left: 70%;
+      opacity: 0;
+    }
+  }
+}

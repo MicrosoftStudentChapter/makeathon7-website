@@ -56,6 +56,7 @@
   left: 42%;
   opacity: 0.5;
   z-index: 2;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .spades img {
@@ -70,6 +71,7 @@
   top: 3vh;
   left: -1vw;
   z-index: 2;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .diamonds1 img {
@@ -85,6 +87,7 @@
   top: 31vh;
   left: 71vw;
   z-index: 2;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .diamonds2 img {
@@ -124,6 +127,7 @@
   transform: scale(0.7);
   flex-shrink: 0;
   z-index: 6;
+  cursor: url('/the-green-spades-hand.png'), pointer;
  
   /* background-color: green; */
 }
@@ -142,11 +146,12 @@
   transform: scale(1.15);
   z-index: 6;
   flex-shrink: 0;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card1:hover {
   box-shadow: 0 0 20px yellow;
-  cursor: pointer;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card2 {
@@ -161,11 +166,12 @@
   top: 25%;
   z-index: 5;
   flex-shrink: 0;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card2:hover {
   box-shadow: 0 0 20px yellow;
-  cursor: pointer;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card3 {
@@ -180,11 +186,12 @@
   top: 22%;
   z-index: 4;
   flex-shrink: 0;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card3:hover {
   box-shadow: 0 0 20px yellow;
-  cursor: pointer;
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .card1Ani {
@@ -277,10 +284,8 @@
 }
 
 .icon img:hover {
-  height: 11.5vh;
-  opacity: 0.6;
-  transform: translateX(-1vh) translateY(-1vw);
-  cursor: pointer;
+  transform: scale(1.1);
+  cursor: url('/the-green-spades-hand.png'), pointer;
 }
 
 .chip {
@@ -494,14 +499,13 @@
   }
 
   .crossButton {
-    height: 10%;
-    width: 17%;
     position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-    z-index: 10;
-    transition: all 0.2s ease-in-out;
+    right: 3vw;
+    top: 3vh;
+    width: 8vw;
+    aspect-ratio: 1/1;
+    cursor: url('/the-green-spades-hand.png'), pointer;
+    z-index: 5;
   }
 
   .timeline {
@@ -561,7 +565,7 @@
   .rightSide div {
     width: 70%;
     height: 70%;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -659,7 +663,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 2vh;
     left: 66vw;
@@ -681,7 +685,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 8.9vh;
     left: 47vw;
@@ -703,10 +707,10 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
-    top: 17.9vh;
-    left: 29vw;
+    top: 30vh;
+    left: 64vw;
     z-index: 3;
     /* background-color: white; */
   }
@@ -725,7 +729,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 28.5vh;
     left: 15vw;
@@ -747,7 +751,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 41vh;
     left: 5.8vw;
@@ -769,7 +773,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 10vh;
     left: 17.1vw;
@@ -786,7 +790,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 51.8vh;
     right: -0.5vw;
@@ -803,7 +807,7 @@
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
+    cursor: url('/the-green-spades-hand.png'), pointer;
     outline: none;
     top: 70.2vh;
     right: 12.5vw;

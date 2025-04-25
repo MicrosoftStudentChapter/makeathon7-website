@@ -8,9 +8,9 @@ body {
 .scrollArrow {
   position: absolute;
   bottom: 30px;
-  left: 110%;
+  left: 157%;
   transform: translateX(-50%);
-  cursor: pointer;
+  cursor: url('/the-green-spades-hand.png'), pointer;
   z-index: 10;
 }
 
@@ -23,6 +23,7 @@ body {
   background-size: cover; 
   background-position: top;
   background-attachment: fixed;
+  flex: 1;
 }
 
 .scrolled {
@@ -77,6 +78,7 @@ body {
   right: -2vw;
   width: 5vw; 
   height: auto;
+  visibility: hidden;
 }
 
 
@@ -85,6 +87,14 @@ body {
     position: fixed;
     left: -1%;
     width: 25%; 
+  }
+  .scrollArrow {
+    position: relative;
+    top: 92vh;
+    left: 40vw;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: 10;
   }
 
   .menu {
@@ -113,5 +123,28 @@ body {
     height: 10vh;
     width: 22vw;
   }
-  
+  .scrollArrow {
+    position: relative;
+    top: 92vh;
+    left: 42vw;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+/* for ipad pro */
+@media screen and (max-width:1200px) and (min-width:500px){
+  .scrollArrow{
+    left: 52%;
+    top: 87vh;
+  }
+}
+
+/* for nest hub */
+@media screen and (max-width:1300px) and (min-width:1023px){
+  .scrollArrow{
+    left: 84%;
+    top: 80vh;
+
+  }
 }

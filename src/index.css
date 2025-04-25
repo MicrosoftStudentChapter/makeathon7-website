@@ -2,10 +2,51 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: url('/cursor.png'), auto;
+  cursor: url('/the-green-spades-arrow.png'), auto; 
 }
 
 html, body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: auto; /* Only allow vertical scrolling on the body */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.home .footer-component {
+  display: none;
+}
+
+/* Fix for pages with footers */
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footerWrapper {
+  margin-top: auto;
+  width: 100%;
+}
+
+/* Content wrapper for proper layout structure */
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
 }

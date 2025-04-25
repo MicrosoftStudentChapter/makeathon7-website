@@ -11,8 +11,8 @@
     transform: rotate(var(--angle)) translate(var(--x-offset), 0px);
     transform-origin: bottom center;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    cursor: pointer;
-}
+    cursor: url('/the-green-spades-hand.png'), pointer;
+  }
   
 .card:hover {
     transform: rotate(var(--angle)) translate(var(--x-offset), -25px);

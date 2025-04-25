@@ -9,9 +9,7 @@
 }
 
 .devfolio, .ethindia {
-  width: 200px; /* Increase the size of the logos */
+  width: 200px;
   margin: 20px;
-  display: none; /* Make the logos invisible */
+  display: none;
 }
-
-
