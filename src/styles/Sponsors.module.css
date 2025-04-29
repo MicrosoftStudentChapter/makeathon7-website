@@ -1,117 +1,153 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.scrollArrow {
-  position: absolute;
-  bottom: 30px;
-  left: 110%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  z-index: 10;
-}
-
-
-.wrapper {
-  transition: background 0s ease; 
-  height: 100%;
-  width: 100%; 
-  background: url('/Sponsors/background.png') no-repeat center center;
-  background-size: cover; 
-  background-position: top;
-  background-attachment: fixed;
-}
-
-.scrolled {
-  background: linear-gradient(#8a1e20, #000000);
-}
-
-.wrapperWSUS{
-  transition: background 0s ease; 
+.gradientBg {
   min-height: 100vh;
-  width: 100vw; 
-  background: url('/Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
-  background-size: cover; 
-  background-position: top;
-  background-attachment: fixed;
-}
-
-.container {
+  min-width: 100vw;
+  background: linear-gradient(#920606, #000000); /* red to black */
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start; 
   align-items: center;
-  min-height: 200vh; 
-  width: 100%; 
-}
-
-.logo {
-  position: fixed;
-  top: 1.5%;
-  width: 7vw; 
-  left: 0%;
-}
-
-.menu {
-  position: fixed;
-  top: 10px; 
-  right: 10px;
-  width: 5vw; 
-  height: 5vw;
-}
-
-.AbsoluteFixed{
-  position:Fixed;
-  position: top;
-  top: 4vw;
-  left: 7vw;
-  position: center;
-}
-
-.AnyaF{
-  position: fixed;  
-  bottom: -0vw; 
-  right: -2vw;
-  width: 5vw; 
-  height: auto;
-}
-
-
-@media screen and (max-width:431px) {
-  .logo {
-    position: fixed;
-    left: -1%;
-    width: 25%; 
-  }
-
-  .menu {
-    position: fixed;
-    top: 10px; 
-    right: 10px;
-    width: 20vw; 
-    height: 20vw;
-  }
-
-  .wrapperWSUS{
-    transition: background 0s ease; 
-    min-height: 100vh;
-    width: 100vw; 
-    background: url('/Sponsors/ClosedFile/BgOfWhySUs.jpg') no-repeat center center;
-    background-size: 200vw;
-    background-position: center 60vw;
-    background-attachment: fixed;
-    background-color: #f8ac64;
-  }
-}
-
-/* For surface pro 7  */
-@media screen and (max-width:913px) and (min-width:431px){
-  .logo{
-    height: 10vh;
-    width: 22vw;
+  justify-content: center;
   }
   
-}
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1200px;
+  }
+  
+  .arrow {
+  font-size: 2rem;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  margin: 0 16px;
+  transition: background 0.2s;
+  }
+  .arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  }
+  
+  .filePages {
+  padding: 1vw;
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+  gap: 0;
+  }
+  
+  .pageLeft,
+  .pageRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2vw;
+  }
+  
+  .pageLeft {
+  border-top-left-radius: 48px 24px;
+  border-bottom-left-radius: 48px 24px;
+  }
+  
+  .pageRight {
+  border-top-right-radius: 48px 24px;
+  border-bottom-right-radius: 48px 24px;
+  }
+  
+  .pageContent {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 8vh;
+  }
+  
+  .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #000000;
+  text-align: center;
+  }
+  
+  .logoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+  }
+  
+  .logoSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  }
+  .logoSquare {
+    padding: 1vh;
+    width: 13vh;
+    aspect-ratio: 1 / 1;
+    background: #eee;
+    border: 2px dashed #aaa;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+  
+  .logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ensures the whole logo fits inside the square */
+    object-position: center;
+    display: block;
+  }
+  
+  .companyName {
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  word-break: break-word;
+  }
+  
+  .topSecret {
+  color: #c00;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin-bottom: 32px;
+  text-align: center;
+  }
+  
+  .sponsors {
+  color: #222;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  }
+
+  .fadeContainer {
+    transition: opacity 0.4s;
+    opacity: 1;
+  }
+  
+  .fadeOut {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .fadeIn {
+    opacity: 1;
+  }
+  

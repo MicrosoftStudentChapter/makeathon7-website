@@ -96,9 +96,9 @@
 }
 
 .Girl{
-    position: fixed;  
+    position: absolute;  
     bottom: -4vw; 
-    left: -1vw;
+    left: -10vw;
     width: 70vh; 
     height: auto;
   }
@@ -173,6 +173,7 @@
         width: 0 ;    
     }
     .Girl{
+
         height: 0 ;
         width: 0 ;
     }
