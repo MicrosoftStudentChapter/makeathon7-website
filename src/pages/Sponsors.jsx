@@ -43,7 +43,7 @@ const sponsorData = [
       heading: "ASSOCIATE SPONSORS",
       slots: [
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745677658/473795101_973506514670007_8819073914586084454_n_blvcaa.jpg", name: "Olivia" },
-        { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745677658/daaura_qcprsz.png", name: "Da Aura" },
+        { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745862504/daaura_qcprsz.png", name: "Da Aura" },
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745686327/IBlogo_light_geqi9a.png", name: "Interview Buddy" },
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745677663/punjab_x54ord.png", name: "Punjab Buggy" },
       ],
@@ -51,6 +51,7 @@ const sponsorData = [
     right: {
       heading: "",
       slots: [
+        { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1746036210/21_utzts0.jpg", name: "Dominick Pizza" },
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745862640/Screenshot_2025-04-28_232023_zg7b6a.png", name: "Southall" },
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745677658/Untitled-9-1536x642_gsumr9.jpg", name: "Polo Immigration " },
         { logo: "https://res.cloudinary.com/dljpfochn/image/upload/v1745677663/images_gf3dcg.jpg", name: "Event Beep" },
